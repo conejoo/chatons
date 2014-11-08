@@ -1,0 +1,10 @@
+<div ng-show="moneda.maximized" class="window-full-size carrusel-maximizado">
+	<div class="background-overlay window-full-size">
+	</div>
+	<carousel>
+		<slide ng-repeat="slide in moneda.imagenesMax" active="slide.active">
+			<img ng-src="imagenes/{{moneda.imagenesCarpeta}}/max/{{slide.url}}" data-ng-click="moneda.maximized = false" ng-style="style">
+		</slide>
+	</carousel>
+
+</div>

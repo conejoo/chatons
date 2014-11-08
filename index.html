@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Monedas Venta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/libs/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/libs/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/directiva-moneda.css">
+	<link rel="stylesheet" href="assets/css/directiva-aviso-small.css">
+	<link rel="stylesheet" href="assets/css/directiva-category.css">
+	<link rel="stylesheet" href="assets/css/modal-details.css">
+	<script src="assets/js/libs/jquery-1.11.1.min.js"></script>
+	<script src="assets/js/libs/jquery.elevatezoom.min.js"></script>
+	<script src="assets/js/libs/underscore-min.js"></script>
+	<script src="assets/js/libs/angular.min.js"></script>
+	<script src="assets/js/libs/bootstrap.min.js"></script>
+	<script src="assets/js/libs/ui-bootstrap-tpls-0.11.0.min.js"></script>
+	<script src="assets/js/libs/carousel.js"></script>
+	<script src="assets/js/app.js"></script>
+	<script src="assets/js/main-controller.js"></script>
+	<script src="assets/js/directiva-aviso.js"></script>
+	<script src="assets/js/directiva-aviso-small.js"></script>
+	<script src="assets/js/directiva-maximizar.js"></script>
+	<script src="assets/js/directiva-main-category.js"></script>
+	<script src="assets/js/ng-elevate-zoom.js"></script>
+	<script src="assets/js/controller-modal-details.js"></script>
+</head>
+<body data-ng-app="app" data-ng-controller="mainController">
+	<div class="container-fluid main-container" ng-style="footer_image_style">
+		<div class="padded-main">
+			<div class="row topbar">
+				<img class="logo" src="imagenes/logo.jpg">
+				<div class="title">
+					<h1>Chatons Bazar</h1>
+					<span class="subtitle">Venta de art&iacute;culos decorativos y monedas de colecci&oacute;n</span>
+				</div>
+			</div>
+			<form class="form-inline filtro" role="form">
+				<div class="form-group">
+					<input type="text" class="form-control" ng-model="filtrotext" id="filter" placeholder="Filtrar...">
+				</div>
+			</form>
+			<div class="row">
+				<div class="category-bar">
+					<h4>Categor&iacute;as</h4>
+					<main-category category="category" selected-category="selected_category" handler="pick_new_category_chatons" ng-repeat="category in chatons.categories"></main-category>
+					<br>
+					<main-category category="category" selected-category="selected_category" handler="pick_new_category_monedas" ng-repeat="category in monedas.categories"></main-category>
+				</div><div class="items-container">
+					<aviso-small data-ng-repeat="item in filtered_items | filter:{text:filtrotext} | orderBy: 'name'" data-item="item"/>
+				</div>
+			</div>
+		</div>
+		<footer >
+			<div class="contact">
+				Mail contacto: chatons.bazar@gmail.com
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

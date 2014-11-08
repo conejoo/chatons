@@ -1,0 +1,39 @@
+<div class="modal-header">
+	<h3 class="modal-title">{{item.name}}</h3>
+</div>
+<div class="modal-body">
+	<div class="row">
+		<div class="col-xs-6">
+			<img 
+				class="modal-detail-img"
+				ng-elevate-zoom 
+				ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{item.images[0].url}}"
+				zoom-image="imagenes/{{item.collection}}/{{item.images_folder}}/max/{{item.images[0].url}}">
+			<p class="zoom-help">Pasando el mouse por sobre la imagen puede ver un acercamiento mas detallado. Puede regular el acercamiento utilizando la rueda del mouse.</p>
+		</div>
+		<div class="col-xs-6" ng-if="item.collection == 'monedas'">
+			<div class="row">
+				<div class="col-sm-5 item-label">Denominaci&oacute;n</div>
+				<div class="col-sm-7">{{item.denominacion}}</div>
+				<div class="col-sm-5 item-label">A&ntilde;o</div>
+				<div class="col-sm-7">{{item.anio}}</div>
+				<div class="col-sm-5 item-label" ng-if="item.mintage">Acu&ntilde;aciones</div>
+				<div class="col-sm-7" ng-if="item.mintage">{{item.mintage.formatMoney(0)}}</div>
+				<div class="col-sm-5 item-label" ng-if="item.weight">Peso actual</div>
+				<div class="col-sm-7" ng-if="item.weight">{{item.weight.formatMoney(2)}} gramos</div>
+				<div class="col-sm-12 item-label long-desc" ng-if="item.krause">Krause</div>
+				<div class="col-sm-12 justify" ng-if="item.krause">{{item.krause_description}}</div>
+				<div class="col-sm-12 item-label long-desc" ng-if="item.description">Descripci&oacute;n</div>
+				<div class="col-sm-12 justify" ng-if="item.description" data-ng-bind-html="trustHtml(item.description)"></div>
+				<div class="col-sm-5 item-label long-desc">Precio</div>
+				<div class="col-sm-7 long-desc">$ {{item.value.formatMoney(0)}}</div>
+			</div>
+		</div>
+		<div class="col-xs-6" ng-if="item.collection == 'chatons'">
+			CHATON
+		</div>
+	</div>
+</div>
+<div class="modal-footer">
+	<button class="btn btn-primary" ng-click="ok()">OK</button>
+</div>

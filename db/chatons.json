@@ -1,0 +1,59 @@
+{
+	"categories": [
+		{"name": "Vinilos", "id": "vinilos", "children": [ 
+				{"name": "Gatitos", "id": "gatitos"},
+				{"name": "Arboles", "id": "arboles"},
+				{"name": "Fotos", "id": "fotos"}
+		]},
+		{"name": "Anillos", "id": "anillos", "children":[ 
+				{"name": "Bañados en plata", "id": "plata"},
+				{"name": "Bañados en oro", "id": "oro"},
+				{"name": "Acero inoxidable", "id": "acero"}
+		]}
+	],
+	"items":[
+		{
+			"categories": ["plata"],
+			"name": "Anillo dragon bañado plata",
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+			],
+			"descripcion": "",
+			"images_folder": "dragon_plata",
+			"images": [
+				{"url": "dragon_plata.jpg"}
+			],
+			"special_class": "black"
+		},
+		{
+			"categories": ["oro"],
+			"name": "Anillo dragon oro",
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+			],
+			"descripcion": "",
+			"images_folder": "dragon_oro",
+			"images": [
+				{"url": "dragon_oro.jpg"}
+			]
+		},
+		{
+			"categories": ["plata"],
+			"name": "Anillo dragon bañado plata 2",
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+			],
+			"descripcion": "",
+			"hidden": true,
+			"images_folder": "dragon_plata",
+			"images": []
+		}
+	]
+
+}

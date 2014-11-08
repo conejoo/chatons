@@ -1,0 +1,143 @@
+body, html{
+	min-height: 100%;
+	min-width: 100%;
+}
+.main-container{
+	max-width: 1200px;
+	padding: 0;
+	box-shadow: 0 10px 33px #050505;
+	background-color: black;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.main-container .padded-main{
+	padding: 20px;
+}
+footer{
+	color: white;
+	padding: 20px;
+	margin-top: 20px;
+	height: 200px;
+	background-position: center;
+}
+footer .contact{
+	margin-top: 77px;
+	background-color: rgba(255, 255, 255, 0.73);
+	box-shadow: inset -1px -1px 10px #939393;
+	border-radius: 5px;
+	color: black;
+	padding: 10px;
+	display: inline-block;
+	font-size: 16px;
+}
+.category-bar{
+	vertical-align: top;
+	background-color:  rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	padding: 10px;
+	width: 15%;
+	display: inline-block;
+	box-shadow: inset -1px -1px 10px #939393;
+}
+.items-container{
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-bottom: 30px;
+	box-shadow: inset -1px -1px 10px #939393;
+	border-radius: 5px;
+	margin-left: 1%;
+	min-height: 440px;
+	display: inline-block;
+	width: 84%;
+}
+.filtro{
+	text-align: right;
+	padding: 10px 0px;
+}
+.filtro input{
+	box-shadow: inset -1px -1px 4px #CBCBCB;
+}
+.justify{
+	text-align: justify;
+}
+
+.topbar{
+	margin-top: 10px;
+	background-color: rgba(255, 255, 255, 0.77);
+	border-radius: 64px;
+}
+.topbar .title{
+	display: inline-block;
+}
+.topbar .title .subtitle{
+	font-size: 20px;
+	display: inline-block;
+}
+.topbar h1{
+	font-size: 80px;
+	margin: 0;
+}
+.topbar .logo{
+	border-radius: 64px;
+	width: 128px;
+	height: 128px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+@media (max-width: 920px) {
+	.topbar h1{
+		font-size: 80px;
+	}
+}
+
+@media (max-width: 740px) {
+	.topbar h1{
+		font-size: 50px;
+		margin-top: 10px;
+	}
+	.topbar .title .subtitle{
+		width: 400px;
+	}
+	.category-bar{
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.items-container{
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+	.category-bar .category{
+		display: inline-block;
+		width: 50%;
+		margin-bottom: 10px;
+		vertical-align: top;
+	}
+}
+@media (max-width: 640px) {
+	.topbar h1{
+		font-size: 34px;
+		margin-top: 20px;
+	}
+	.topbar .title .subtitle{
+		width: 300px;
+	}
+	footer{
+		padding: 20px;
+	}
+	footer .contact{
+		width: 100%;
+	}
+}
+@media (max-width: 490px) {
+	.topbar h1{
+		margin-top: 32px;
+	}
+	.topbar .title .subtitle{
+		width: 210px;
+		font-size: 13px;
+	}
+}

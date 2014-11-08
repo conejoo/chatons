@@ -1,0 +1,54 @@
+
+.aviso{
+	margin-bottom: 20px;
+	background-color: rgb(65, 65, 65);
+	color: white;
+	padding: 20px 5px;
+}
+.carrusel-pequeno .imagen img{
+	overflow-x: hidden;
+	height: 370px !important;
+	margin: auto;
+	width: auto;
+}
+.detalles{
+	background-color: rgb(24, 24, 24);
+	padding: 20px 10px;
+}
+.detalles>div:nth-child(odd){
+	font-weight: bold;
+}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.long-desc{
+	margin-top: 10px;
+}
+.carrusel-pequeno .caja-imagen{
+	overflow: hidden;
+}
+.carrusel-pequeno .caja-imagen>div{
+	width: 1000px;
+	margin-left: -325px;
+}
+.background-overlay{
+	background-color: black;
+	opacity: 0.3;
+}
+.window-full-size{
+	top: 0;
+	bottom: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+}
+
+.carrusel-maximizado{
+	z-index: 9000;
+}
+.carrusel-maximizado img{
+	overflow-x: hidden;
+	margin: auto;
+	width: auto;
+}

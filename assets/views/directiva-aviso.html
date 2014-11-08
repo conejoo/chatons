@@ -1,0 +1,36 @@
+<div class="aviso">
+	<div class="row carrusel-pequeno">
+		<div class="col-sm-6 imagen">
+			<carousel>
+				<slide ng-repeat="slide in moneda.imagenesMin" active="slide.active">
+					<div class="caja-imagen">
+						<div>
+							<img ng-src="imagenes/{{moneda.imagenesCarpeta}}/{{slide.url}}" data-ng-click="moneda.maximized = true">
+						</div>
+					</div>
+				</slide>
+			</carousel>
+		</div>
+		<div class="col-sm-6">
+			<div class="row detalles">
+				<div class="col-sm-5">N&uacute;mero</div>
+				<div class="col-sm-7">{{moneda.numero}}</div>
+				<div class="col-sm-5">Denominaci&oacute;n</div>
+				<div class="col-sm-7">{{moneda.denominacion}}</div>
+				<div class="col-sm-5">A&ntilde;o</div>
+				<div class="col-sm-7">{{moneda.anio}}</div>
+				<div class="col-sm-5" ng-if="moneda.mintage">Acu&ntilde;aciones</div>
+				<div class="col-sm-7" ng-if="moneda.mintage">{{moneda.mintage.formatMoney(0)}}</div>
+				<div class="col-sm-5" ng-if="moneda.peso">Peso actual</div>
+				<div class="col-sm-7" ng-if="moneda.peso">{{moneda.peso.formatMoney(2)}} gramos</div>
+				<div class="col-sm-12 long-desc" ng-if="moneda.krause">Krause</div>
+				<div class="col-sm-12" ng-if="moneda.krause">{{tipos[moneda.krause]}}</div>
+				<div class="col-sm-12 long-desc" ng-if="moneda.descripcion">Descripci&oacute;n</div>
+				<div class="col-sm-12" ng-if="moneda.descripcion" data-ng-bind-html="trustHtml(moneda.descripcion)"></div>
+				<div class="col-sm-5 long-desc">Precio</div>
+				<div class="col-sm-7 long-desc">$ {{moneda.valor.formatMoney(0)}}</div>
+			</div>
+		</div>
+	</div>
+	<maximizar data-moneda="moneda"/>
+</div>

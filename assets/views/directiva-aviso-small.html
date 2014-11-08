@@ -1,0 +1,27 @@
+<div class="aviso-small {{item.special_class}}">
+	<a class="link-overlay" ng-click="show_details()"></a>
+	<img ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{item.images[0].url}}">
+	<span class="item-name">{{item.name}}</span>
+	<div class="aviso-resume">
+		<table ng-if="item.collection == 'chatons'">
+			<tr ng-repeat="price in item.values">
+				<td class="quantity">Desde {{price.quantity}} unidades: </td>
+				<td class="price">{{price.price.formatMoney(0)}} x unidad</td>
+			</tr>
+		</table>
+		<table ng-if="item.collection == 'monedas'" >
+			<tr ng-if="item.certification">
+				<td class="quantity">Certificaci&oacute;n: </td>
+				<td class="price">{{item.certification}}</td>
+			</tr>
+			<tr ng-if="item.weight">
+				<td class="quantity">Peso: </td>
+				<td class="price">{{item.weight}} gramos</td>
+			</tr>
+			<tr>
+				<td class="quantity">Precio: </td>
+				<td class="price">$ {{item.value.formatMoney(0)}}</td>
+			</tr>
+		</table>
+	</div>
+</div>

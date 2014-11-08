@@ -1,0 +1,4 @@
+<div class="category">
+	<a class="category-header" ng-click="pick_category(category)" ng-class="{'selected-category': selected_category == category}">{{category.name}}</a>
+	<a ng-repeat="child in category.children" class="category-item" ng-click="pick_category(child)" ng-class="{'selected-category': selected_category == child}">{{child.name}}</a>
+</div>

@@ -1,0 +1,586 @@
+{
+	"categories": [
+		{"name": "Monedas Chilenas", "id": "chilena", "children": [ 
+				{"name": "Pesos Águila", "id": "peso_aguila"},
+				{"name": "Pesos Montt", "id": "peso_montt"},
+				{"name": "Coloniales", "id": "colonial"},
+				{"name": "Oro", "id": "oro"}
+		]},
+		{"name": "Certificadas", "id": "certificadas", "children": [ 
+				{"name": "NGC", "id": "ngc"},
+				{"name": "PCGS", "id": "pcgs"},
+				{"name": "Zuramerica", "id": "zuramerica"}
+		]},
+		{"name": "Extranjeras", "id": "extranjeras", "children": []}
+	],
+	"krause":{
+		"KM142.1": "KM # 142.1 PESO 25.0000 g., 0.9000 Silver 0.7234 oz. ASW, 37 mm.Obv: Plumed arms within wreathRev: Condor with wings spread and shieldNote: Struck by law of October 21, 1865.",
+		"KM152.1": "KM # 152.1 PESO 20.0000 g., 0.8350 Silver 0.5369 oz. ASW, 35 mm.Obv: Defiant condor leftRev: Denomination within wreathNote: Issued under law No. 277 of February 11, 1895",
+		"KM152.2": "KM # 152.2 PESO 20.0000 g., 0.7000 Silver 0.4501 oz. ASW, 35 mm.Obv: Defiant Condor on rock, left, 0.7 below right wingRev: Denomination above date within wreath",
+		"KM152.3": "KM # 152.3 PESO 12.0000 g., 0.9000 Silver 0.3472 oz. ASW, 31.5 mm.Obv: Defiant Condor on rock, left, 0.9 below right wingRev: Denomination above date within wreath",
+		"KM172": "KM # 172 2 PESOS 18.0000 g., 0.5000 Silver 0.2893 oz. ASWObv: Defiant Condor on rock leftRev: Denomination above date within wreathNote: Obverse varieties 0.5 and 0,5 with curved top and flat top 5 exist. 459,510 pieces were melted down in 1932",
+		"KM211":"KM # 211 10 PESOS 44.8000 g., 0.9990 Silver 1.4389 oz. ASWSubject: 3rd Anniversary of New GovernmentObv: Coat of arms above denominationRev: Winged figure with arms upraised, two dates",
+		"KM133": "KM # 133 PESO 1.5235 g., 0.9000 Gold 0.0441 oz. AGW, 14 mm.Obv: Standing libertyRev: Denomination within wreathNote: Crude style. Struck under law of July 28, 1860 and decree of August 20, 1860.",
+		"KM4": "KM # 4 PESO 22.0000 g., 0.9700 Silver 0.6861 oz. ASW, 35 mm",
+		"KM80": "KM # 80 8 REALES 27.0674 g., 0.8960 Silver 0.7797 oz. ASWObv: Laureate bust rightObv.Legend: FERDIN. VIIRev: Crowned arms between columnsNote: Mint mark So.",
+		"KM51": "KM # 51 8 REALES 27.0674 g., 0.8960 Silver 0.7797 oz. ASW, 40 mm.Ruler: Carlos IV Obv: Laureate bust right Obv.Legend: CAROLUS • IIII • DEI • GRATIA •Rev: Crowned arms between columns. Rev.Legend: • HISPAN • ET IND • REX • Note: Mint mark So",
+		"KM213": "KM # 213 100 PESOS 20.3000 g., 0.9000 Gold 0.5874 oz. AGWSubject: 3rd Anniversary of New GovernmentObv: Coat of arms above date and denominationRev: Winged figure with upraised arms, two dates above.",
+		"KM183": "KM # 183 10 PESOS 45.0000 g., 0.9990 Silver 1.4453 oz. ASWSubject: Arrival of Liberation Fleet in 1820 under command of Lord CochraneRev: Liberation fleet, dates below.",
+		"KM129": "KM # 129 PESO 25.0000 g., 0.9000 Silver 0.7234 oz. ASW, 37 mm.Obv: Plumed arms within wreathRev: Condor with shield at rightEdge: ReededNote: Struck under law of January 9, 1851 and decree of March 19, 1851.",
+		"KM230": "KM # 230 10000 PESOS 27.0000 g., 0.9250 Silver 0.8029 oz. ASWSeries: Ibero - AmericanObv: Inner circle holds Coat of Arms, denomination within outer circle, 13 shields surroundRev: Three dates below three ships, globe in background"
+	},
+	"items":[
+		{
+			"name": "1804 8 Reales (Santiago) - NGC",
+			"images_folder": "1804 8 Reales - NGC",
+			"images": [
+				{"url": "IMG_6395.JPG"},
+				{"url": "IMG_6396.JPG"},
+				{"url": "IMG_6397.JPG"},
+				{"url": "IMG_6393.JPG"},
+				{"url": "IMG_6386.JPG"},
+				{"url": "IMG_6387.JPG"},
+				{"url": "IMG_6388.JPG"}
+			],
+			"categories": ["colonial", "ngc"],
+			"value": 950000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1804,
+			"mintage": 129000,
+			"certification": "NGC",
+			"description": "Certificado por NGC: <a href=\"http://www.ngccoin.com/certlookup/index.aspx?CertNumber=3615184-006\" target=\"_blank\">Ver Moneda en NGC</a> Subastado StackBowers. Casi sin circular.",
+			"krause": "KM51"
+		},
+		{
+			"name": "1801 8 Reales (Santiago) - Zuramerica",
+			"images_folder": "1801 8 Reales",
+			"images": [
+				{"url": "IMG_6404.JPG"},
+				{"url": "IMG_6403.JPG"},
+				{"url": "IMG_6407.JPG"},
+				{"url": "IMG_6408.JPG"},
+				{"url": "IMG_5604.JPG"},
+				{"url": "IMG_5612.JPG"},
+				{"url": "IMG_5613.JPG"},
+				{"url": "IMG_5611.JPG"}
+			],
+			"categories": ["colonial", "zuramerica"],
+			"value": 390000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1801,
+			"mintage": 185000,
+			"certification": "Zuramerica",
+			"description": "Certificado por Zuramerica.",
+			"krause": "KM51"
+		},
+		{
+			"name": "1976 100 Pesos - NGC",
+			"images_folder": "1976 100 Pesos - NGC",
+			"images": [
+				{"url": "obv.jpg"},
+				{"url": "rev.jpg"}
+			],
+			"categories": ["ngc", "oro"],
+			"value": 900000,
+			"denominacion": "100 Pesos",
+			"anio": 1976,
+			"mintage": 2900,
+			"certification": "NGC",
+			"description": "Certificado por NGC: <a href=\"http://www.ngccoin.com/certlookup/index.aspx?CertNumber=3504094-007\" target=\"_blank\">Ver Moneda en NGC</a> Subastado por Heritage Auctions. Sin circular - Estado MS-64.",
+			"krause": "KM213"
+		},
+		{
+			"name": "1816 8 Reales (Santiago) - NGC",
+			"images_folder": "1816 8 Reales - NGC",
+			"images": [
+				{"url": "obv.jpg"},
+				{"url": "rev.jpg"}
+			],
+			"categories": ["colonial", "ngc"],
+			"value": 600000,
+			"denominacion": "8 Reales",
+			"anio": 1816,
+			"mintage": 386000,
+			"certification": "NGC",
+			"description": "Certificado por NGC: <a href=\"http://www.ngccoin.com/certlookup/index.aspx?CertNumber=3645408-002\" target=\"_blank\">Ver Moneda en NGC</a> Subastado por Heritage Auctions. Casi sin circular - Estado AU.",
+			"krause": "KM80"
+		},
+		{
+			"name": "1814 8 Reales (Santiago) - Aureo",
+			"images_folder": "1814 8 Reales Santiago - Aureo",
+			"images": [
+				{"url": "IMG_6341.JPG"},
+				{"url": "IMG_6343.JPG"},
+				{"url": "IMG_6344.JPG"},
+				{"url": "IMG_6346.JPG"}
+			],
+			"categories": ["colonial"],
+			"value": 450000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1814,
+			"weight": 26.39,
+			"mintage": 368000,
+			"certification": "Aureo",
+			"description": "Subastado y Certificado por Aureo. <a href=\"https://www.numisbids.com/n.php?p=lot&sid=765&lot=591\" target=\"_blank\">Lote 591</a>. Muy buenas condiciones.",
+			"krause": "KM80"
+		},
+		{
+			"name": "1814 8 Reales (Santiago) - Solr y Lanch 498",
+			"images_folder": "1814 8 Reales - Solr y Lanch 498",
+			"images": [
+				{"url": "IMG_6348.JPG"},
+				{"url": "image00498.jpg"},
+				{"url": "IMG_6349.JPG"},
+				{"url": "IMG_6390.JPG"}
+			],
+			"categories": ["colonial"],
+			"value": 350000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1814,
+			"weight": 27.13,
+			"mintage": 368000,
+			"description": "Subastado por Soler y LLanch. <a href=\"https://www.soleryllach.com/soler4/fichaLote/1082-1/0498\" target=\"_blank\">Auction 1082 - Floor Auction  10 July 2014 - Lote 498</a>",
+			"krause": "KM80"
+		},
+		{
+			"name": "1814 8 Reales (Santiago) - Solr y Lanch 499",
+			"images_folder": "1814 8 Reales - Solr y Lanch 499",
+			"images": [
+				{"url": "IMG_6350.JPG"},
+				{"url": "image00499.jpg"},
+				{"url": "IMG_6351.JPG"},
+				{"url": "IMG_6352.JPG"},
+				{"url": "IMG_6353.JPG"}
+			],
+			"categories": ["colonial"],
+			"value": 285000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1814,
+			"weight": 26.45,
+			"mintage": 368000,
+			"description": "Subastado por Soler y LLanch. <a href=\"https://www.soleryllach.com/soler4/fichaLote/1082-1/0499\" target=\"_blank\">Auction 1082 - Floor Auction  10 July 2014 - Lote 499</a>. Acu&ntilde;aci&oacute;n debilmente marcada a un costado. Buenos detalles en el resto de la moneda, poca circulaci&oacute;n.",
+			"krause": "KM80"
+		},
+		{
+			"name": "1816 8 Reales (Santiago) - Zuramerica",
+			"images_folder": "1816 8 Reales Santiago",
+			"images": [
+				{"url": "IMG_6006.JPG"},
+				{"url": "IMG_6008.JPG"},
+				{"url": "IMG_6011.JPG"},
+				{"url": "IMG_6013.JPG"},
+				{"url": "IMG_6007.JPG"},
+				{"url": "IMG_6009.JPG"}
+			],
+			"categories": ["colonial"],
+			"value": 320000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1816,
+			"weight": 26.4,
+			"mintage": 386000,
+			"certification": "Zuramerica",
+			"description": "Certificado por Zuramerica",
+			"krause": "KM80"
+		},
+		{
+			"name": "1855 Peso Montt - SS Central - PCGS",
+			"images_folder": "1855 Peso Montt - SS Central",
+			"images": [
+				{"url": "IMG_6401.JPG"},
+				{"url": "IMG_6402.JPG"},
+				{"url": "IMG_6399.JPG"},
+				{"url": "IMG_6398.JPG"},
+				{"url": "IMG_6409.JPG"},
+				{"url": "IMG_6410.JPG"}
+			],
+			"categories": ["peso_montt", "pcgs"],
+			"value": 240000,
+			"denominacion": "1 Peso",
+			"anio": 1855,
+			"mintage": 683000,
+			"certification": "PCGS",
+			"description": "Peso Montt 1855 rescatado del naufragio del SS. Central America. Certificado por PCGS. 0.9 plata.",
+			"krause": "KM129"
+		},
+		{
+			"name": "1856 Peso Copiapo - Zuramerica",
+			"images_folder": "1856 Peso Copiapo",
+			"images": [
+				{"url": "IMG_5932.JPG"},
+				{"url": "IMG_5937.JPG"},
+				{"url": "IMG_5938.JPG"},
+				{"url": "IMG_5933.JPG"},
+				{"url": "IMG_5934.JPG"},
+				{"url": "IMG_5935.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 235000,
+			"denominacion": "1 Peso (Copiapo)",
+			"anio": 1856,
+			"hidden": true,
+			"weight": 21.7,
+			"certification": "Zuramerica",
+			"description": "Certificado por Zuramerica",
+			"krause": "KM4"
+		},
+		{
+			"name": "1860 Peso (Oro)",
+			"images_folder": "1860 1 Peso (oro) - 1",
+			"images": [
+				{"url": "IMG_6130.JPG"},
+				{"url": "IMG_6132.JPG"},
+				{"url": "IMG_6129.JPG"},
+				{"url": "IMG_6133.JPG"}
+			],
+			"categories": ["oro"],
+			"value": 138000,
+			"denominacion": "1 Peso (Oro)",
+			"anio": 1860,
+			"weight": 1.5,
+			"mintage": 156000,
+			"description": "",
+			"krause": "KM133"
+		},
+		{
+			"name": "1875 Peso Águila",
+			"images_folder": "1875 Peso aguila",
+			"images": [
+				{"url": "IMG_5732.JPG"},
+				{"url": "IMG_5733.JPG"},
+				{"url": "IMG_5734.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 45000,
+			"denominacion": "1 Peso",
+			"anio": 1875,
+			"weight": 24.92,
+			"mintage": 2128000,
+			"description": "Peso Aguila, 0.9 plata.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1876 Peso Águila",
+			"images_folder": "1876 Peso aguila - 1",
+			"images": [
+				{"url": "IMG_6100.JPG"},
+				{"url": "IMG_6101.JPG"},
+				{"url": "IMG_6104.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 40000,
+			"denominacion": "1 Peso",
+			"anio": 1876,
+			"weight": 24.96,
+			"mintage": 1508000,
+			"description": "Peso Aguila, 0.9 plata",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1877 Peso Águila",
+			"images_folder": "1877 Peso aguila - 1",
+			"images": [
+				{"url": "IMG_6089.JPG"},
+				{"url": "IMG_6086.JPG"},
+				{"url": "IMG_6090.JPG"},
+				{"url": "IMG_6085.JPG"},
+				{"url": "IMG_6083.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 35000,
+			"denominacion": "1 Peso",
+			"anio": 1877,
+			"weight": 24.71,
+			"mintage": 1930000,
+			"description": "Peso Aguila, 0.9 plata",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1880 Peso Águila",
+			"images_folder": "1880 Peso aguila",
+			"images": [
+				{"url": "IMG_6563.JPG"},
+				{"url": "IMG_6564.JPG"},
+				{"url": "IMG_6565.JPG"},
+				{"url": "IMG_6566.JPG"},
+				{"url": "IMG_6567.JPG"},
+				{"url": "IMG_6568.JPG"},
+				{"url": "IMG_6569.JPG"},
+				{"url": "IMG_6570.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 35000,
+			"denominacion": "1 Peso",
+			"anio": 1880,
+			"weight": 24.89,
+			"mintage": 693000,
+			"description": "Peso Aguila, 0.9 plata",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1881 Peso Águila",
+			"images_folder": "1881 Peso aguila - 1",
+			"images": [
+				{"url": "IMG_6091.JPG"},
+				{"url": "IMG_6092.JPG"},
+				{"url": "IMG_6094.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 42000,
+			"denominacion": "1 Peso",
+			"anio": 1881,
+			"weight": 24.92,
+			"mintage": 1420000,
+			"description": "Peso Aguila, 0.9 plata",
+			"krause": "KM142.1",
+			"vendida": true
+		},
+		{
+			"name": "1882 Peso Águila",
+			"images_folder": "1882 Peso aguila",
+			"images": [
+				{"url": "IMG_5741.JPG"},
+				{"url": "IMG_5742.JPG"},
+				{"url": "IMG_5744.JPG"},
+				{"url": "IMG_5747.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 40000,
+			"denominacion": "1 Peso",
+			"anio": 1882,
+			"weight": 25.05,
+			"mintage": 1648000,
+			"description": "Peso Aguila, 0.9 plata. Muy buen estado.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1883 Peso Águila",
+			"images_folder": "1883 Peso aguila - 1",
+			"images": [
+				{"url": "IMG_5964.JPG"},
+				{"url": "IMG_5963.JPG"},
+				{"url": "IMG_5965.JPG"},
+				{"url": "IMG_5966.JPG"},
+				{"url": "IMG_5967.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 37000,
+			"denominacion": "1 Peso",
+			"anio": 1883,
+			"weight": 24.79,
+			"mintage": 1397000,
+			"description": "Peso Aguila, 0.9 plata",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1884 Peso Águila (1)",
+			"images_folder": "1884 Peso aguila - 1",
+			"images": [
+				{"url": "IMG_5729.JPG"},
+				{"url": "IMG_5730.JPG"},
+				{"url": "IMG_5731.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 54000,
+			"denominacion": "1 Peso",
+			"anio": 1884,
+			"weight": 24.91,
+			"mintage": 1812000,
+			"description": "Peso Aguila, 0.9 plata. Casi sin circular.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1884 Peso Águila (2)",
+			"images_folder": "1884 Peso aguila - 2",
+			"images": [
+				{"url": "IMG_5945.JPG"},
+				{"url": "IMG_5944.JPG"},
+				{"url": "IMG_5947.JPG"},
+				{"url": "IMG_5948.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 35000,
+			"denominacion": "1 Peso",
+			"anio": 1884,
+			"weight": 24.85,
+			"mintage": 1812000,
+			"description": "Peso Aguila, 0.9 plata.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1895 Peso (1)",
+			"images_folder": "1895 Peso - 1",
+			"images": [
+				{"url": "IMG_6114.JPG"},
+				{"url": "IMG_6115.JPG"},
+				{"url": "IMG_6113.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 14000,
+			"denominacion": "1 Peso",
+			"anio": 1895,
+			"weight": 19.99,
+			"mintage": 6086000,
+			"description": "83,5% contenido de plata.",
+			"krause": "KM152.1"
+		},
+		{
+			"name": "1895 Peso (2)",
+			"images_folder": "1895 Peso - 2",
+			"images": [
+				{"url": "IMG_6096.JPG"},
+				{"url": "IMG_6099.JPG"},
+				{"url": "IMG_6095.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 18000,
+			"denominacion": "1 Peso",
+			"anio": 1895,
+			"weight": 19.87,
+			"mintage": 6086000,
+			"description": "83,5% contenido de plata. Muy buenas condiciones.",
+			"krause": "KM152.1"
+		},
+		{
+			"name": "1895 Peso (3)",
+			"images_folder": "1895 Peso - 3",
+			"images": [
+				{"url": "IMG_6119.JPG"},
+				{"url": "IMG_6118.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 14000,
+			"denominacion": "1 Peso",
+			"anio": 1895,
+			"mintage": 6086000,
+			"description": "83,5% contenido de plata.",
+			"krause": "KM152.1"
+		},
+		{
+			"name": "1903 Peso",
+			"images_folder": "1903 Peso - 1",
+			"images": [
+				{"url": "IMG_6108.JPG"},
+				{"url": "IMG_6109.JPG"},
+				{"url": "IMG_6111.JPG"},
+				{"url": "IMG_6112.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 15000,
+			"denominacion": "1 Peso",
+			"anio": 1903,
+			"weight": 19.86,
+			"mintage": 372000,
+			"description": "70% contenido de plata.",
+			"krause": "KM152.2"
+		},
+		{
+			"name": "1910 Peso",
+			"images_folder": "1910 1 Peso - 1",
+			"images": [
+				{"url": "IMG_6106.JPG"},
+				{"url": "IMG_6107.JPG"},
+				{"url": "IMG_6105.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 10000,
+			"denominacion": "1 Peso",
+			"anio": 1910,
+			"weight": 11.94,
+			"mintage": 2166000,
+			"description": "90% contenido de plata.",
+			"krause": "KM152.3"
+		},
+		{
+			"name": "1927 2 Pesos",
+			"images_folder": "1927 2 Pesos - 1",
+			"images": [
+				{"url": "IMG_6124.JPG"},
+				{"url": "IMG_6125.JPG"},
+				{"url": "IMG_6126.JPG"},
+				{"url": "IMG_6127.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 10000,
+			"denominacion": "2 Pesos",
+			"anio": 1927,
+			"weight": 17.69,
+			"mintage": 1060000,
+			"description": "90% contenido de plata.",
+			"krause": "KM172"
+		},
+		{
+			"name": "1976 10 Pesos",
+			"images_folder": "1976 10 Pesos",
+			"images": [
+				{"url": "IMG_5736.JPG"},
+				{"url": "IMG_5737.JPG"},
+				{"url": "IMG_5738.JPG"},
+				{"url": "IMG_5739.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 315000,
+			"denominacion": "10 Pesos",
+			"anio": 1976,
+			"weight": 44.0,
+			"mintage": 1000,
+			"description": "99,9% contenido de plata.",
+			"krause": "KM211"
+		},
+		{
+			"name": "1968 10 Pesos",
+			"images_folder": "1968 10 Pesos",
+			"images": [
+				{"url": "IMG_6405.JPG"},
+				{"url": "IMG_6406.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 165000,
+			"denominacion": "10 Pesos",
+			"anio": 1968,
+			"weight": 45.0,
+			"hidden": true,
+			"mintage": 1215,
+			"description": "99,9% contenido de plata.",
+			"krause": "KM183"
+		},
+		{
+			"name": "Medalla de plata - Gob. Militar",
+			"images_folder": "Medalla - Gob Militar",
+			"images": [
+				{"url": "IMG_6001.JPG"},
+				{"url": "IMG_6002.JPG"},
+				{"url": "IMG_6003.JPG"},
+				{"url": "IMG_5998.JPG"},
+				{"url": "IMG_6004.JPG"},
+				{"url": "IMG_6005.JPG"},
+				{"url": "IMG_6014.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 390000,
+			"denominacion": "Medalla Conmemorativa. Gobierno Militar",
+			"anio": 1974,
+			"weight": 186,
+			"mintage": 1000,
+			"description": "Escasa Medalla Conmemorativa a 1 año del 11 de septiembre de 1973. Esta con su documentación original. Y la caja azul es posible que sea su caja original. Metal: Plata 99,99%. Diametro: 7 centimetros. Espesor: 5 milimetros (aprox). *La caja de madera no es su caja original."
+		},
+		{
+			"name": "1991 10.000 Pesos",
+			"images_folder": "1991 10000 Pesos",
+			"images": [
+				{"url": "IMG_6561.JPG"},
+				{"url": "IMG_6562.JPG"},
+				{"url": "IMG_6571.JPG"},
+				{"url": "IMG_6572.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 43000,
+			"denominacion": "10.000 Pesos",
+			"hidden": true,
+			"anio": 1991,
+			"weight": 27.10,
+			"mintage": 75000,
+			"description": "92,50% contenido de plata.",
+			"krause": "KM230"
+		}
+	]
+}

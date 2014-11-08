@@ -1,0 +1,15 @@
+.category-bar .category-header{
+
+}
+.category-bar .category a{
+	display: block;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000F5C;
+}
+.category-bar .category-item{
+	margin-left: 10px;
+}
+.category-bar .selected-category{
+	font-weight: bold;
+}
