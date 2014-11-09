@@ -11,7 +11,7 @@ app.directive('ngElevateZoom', function() {
       function linkElevateZoom(){
         //Check if its not empty
         if (!attrs.zoomImage) return;
-        element.attr('data-zoom-image',"http://localhost:5555/chatons/"+attrs.zoomImage);
+        element.attr('data-zoom-image',attrs.zoomImage);
         $(element).elevateZoom({
           zoomType: "inner",
           cursor: "crosshair",
