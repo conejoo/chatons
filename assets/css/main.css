@@ -84,6 +84,13 @@ footer .contact{
 	display: inline-block;
 	vertical-align: top;
 }
+.current-navigation{
+	padding: 10px 20px 0px 20px;
+	margin-bottom: -20px;
+}
+.current-navigation a{
+	cursor: pointer;
+}
 
 
 @media (max-width: 920px) {

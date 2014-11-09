@@ -49,6 +49,7 @@
 					<br>
 					<main-category category="category" selected-category="selected_category" handler="pick_new_category_monedas" ng-repeat="category in monedas.categories"></main-category>
 				</div><div class="items-container">
+					<div class="current-navigation" ng-if="selected_category">Categor&iacute;a &gt;&gt; <span ng-if="selected_category.parent"><a ng-click="last_fn(selected_category.parent)">{{selected_category.parent.name}}</a> &gt;&gt; </span> <a>{{selected_category.name}}</a></div>
 					<aviso-small data-ng-repeat="item in filtered_items | filter:{text:filtrotext} | orderBy: 'name'" data-item="item"/>
 				</div>
 			</div>
