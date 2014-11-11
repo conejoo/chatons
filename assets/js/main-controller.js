@@ -55,17 +55,17 @@ function MainControllerSettings($scope, $http, $modal) {
 	}
 	$scope.pick_new_category_monedas = function(category){
 		var filter = function(item){return $scope.check_category(item, category);};
-		console.log("MONEDAS", category);
 		$scope.filtered_items = _.filter($scope.monedas.items, filter);
 		$scope.selected_category = category;
 		$scope.last_fn = $scope.pick_new_category_monedas;
+		$scope.filtrotext = "";
 	}
 	$scope.pick_new_category_chatons = function(category){
 		var filter = function(item){return $scope.check_category(item, category);};
-		console.log("CHATONS", category);
 		$scope.filtered_items = _.filter($scope.chatons.items, filter);
 		$scope.selected_category = category;
 		$scope.last_fn = $scope.pick_new_category_chatons;
+		$scope.filtrotext = "";
 	};
 	$http.get("db/chatons.json?version="+(new Date().getTime())).success(function(data){
 		$scope.chatons = data;

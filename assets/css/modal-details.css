@@ -3,11 +3,18 @@
 	max-height: 100%;
 }
 .zoomContainer{
-	z-index: 999999;
+	z-index: 99999;
 }
 .modal-body .zoom-help{
 	font-size: 11px;
 }
 .modal-body .item-label{
 	font-weight: bold;
+}
+#image_galery{
+	margin-top: 15px;
+}
+#image_galery a img{
+	width: 75px;
+	height: 75px;
 }

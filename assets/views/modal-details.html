@@ -4,12 +4,19 @@
 <div class="modal-body">
 	<div class="row">
 		<div class="col-xs-6">
+			<div id="lense_container">
 			<img 
 				class="modal-detail-img"
-				ng-elevate-zoom 
-				ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{item.images[0].url}}"
-				zoom-image="imagenes/{{item.collection}}/{{item.images_folder}}/max/{{item.images[0].url}}">
+				ng-elevate-zoom
+				ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{selected_img.url}}"
+				zoom-image="imagenes/{{item.collection}}/{{item.images_folder}}/max/{{selected_img.url}}">
+			</div>
 			<p class="zoom-help">Pasando el mouse por sobre la imagen puede ver un acercamiento mas detallado. Puede regular el acercamiento utilizando la rueda del mouse.</p>
+			<div id="image_galery">
+				<a href="#" ng-repeat="image in item.images" ng-click="select_image(image)"> 
+					<img ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{image.url}}" />
+				</a>
+			</div>
 		</div>
 		<div class="col-xs-6" ng-if="item.collection == 'monedas'">
 			<div class="row">
