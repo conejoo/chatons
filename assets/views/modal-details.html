@@ -13,8 +13,8 @@
 			</div>
 			<p class="zoom-help">Pasando el mouse por sobre la imagen puede ver un acercamiento mas detallado. Puede regular el acercamiento utilizando la rueda del mouse.</p>
 			<div id="image_galery">
-				<a href="#" ng-repeat="image in item.images" ng-click="select_image(image)"> 
-					<img ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{image.url}}" />
+				<a ng-repeat="image in item.images" ng-click="select_image(image)"> 
+					<img ng-src="imagenes/{{item.collection}}/{{item.images_folder}}/{{image.url}}" ng-class="{active: image == selected_img}" />
 				</a>
 			</div>
 		</div>
