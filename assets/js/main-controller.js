@@ -24,7 +24,7 @@ function MainControllerSettings($scope, $http, $modal) {
 		return arr;
 	}
 	$scope.footer_image_style = {
-		'background-image': "url('imagenes/fondo" + getRandomInt(1, 22) + ".jpg')"
+		'background-image': "url('imagenes/fondo" + getRandomInt(1, 33) + ".jpg')"
 	};
 	$scope.filtered_items = [];
 	$scope.complete_items = function(items, collection){
