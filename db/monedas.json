@@ -392,6 +392,7 @@
 			"anio": 1884,
 			"weight": 24.91,
 			"mintage": 1812000,
+			"hidden": true,
 			"description": "Peso Aguila, 0.9 plata. Casi sin circular.",
 			"krause": "KM142.1"
 		},
