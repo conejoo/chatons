@@ -1,44 +1,100 @@
 {
 	"categories": [
-		{"name": "Vinilos", "id": "vinilos", "children": [ 
+		{"hidden": true, "name": "Vinilos", "id": "vinilos", "children": [ 
 				{"name": "Gatitos", "id": "gatitos"},
 				{"name": "Arboles", "id": "arboles"},
 				{"name": "Fotos", "id": "fotos"}
 		]},
-		{"name": "Anillos", "id": "anillos", "children":[ 
-				{"name": "Bañados en plata", "id": "plata"},
-				{"name": "Bañados en oro", "id": "oro"},
-				{"name": "Acero inoxidable", "id": "acero"}
+		{"name": "Aros", "id": "aros", "children":[ 
+				{"name": "Flor de Madera", "id": "flor_madera"},
+				{"name": "Flor de masa", "id": "flor_masa"}
 		]}
 	],
 	"items":[
 		{
-			"categories": ["plata"],
-			"name": "Anillo dragon bañado plata",
+			"categories": ["flor_madera"],
+			"name": "Aro de madera en forma de flor",
 			"values": [
 				{"quantity": 1, "price": 2000},
 				{"quantity": 3, "price": 4500},
 				{"quantity": 10, "price": 10000}
 			],
-			"descripcion": "",
-			"images_folder": "dragon_plata",
+			"descripcion": "Aros con forma de flor de madera. Existen en dos tamaños.",
+			"images_folder": "flor_madera",
 			"images": [
-				{"url": "dragon_plata.jpg"}
-			],
-			"special_class": "black"
+				{"url": "IMG_6677.JPG"},
+				{"url": "IMG_6679.JPG"},
+				{"url": "IMG_6680.JPG"},
+				{"url": "IMG_6681.JPG"},
+				{"url": "IMG_6682.JPG"},
+				{"url": "IMG_6683.JPG"},
+				{"url": "IMG_6684.JPG"},
+				{"url": "IMG_6685.JPG"},
+				{"url": "IMG_6686.JPG"},
+				{"url": "IMG_6687.JPG"},
+				{"url": "IMG_6688.JPG"},
+				{"url": "IMG_6689.JPG"},
+				{"url": "IMG_6690.JPG"},
+				{"url": "IMG_6692.JPG"}
+			]
 		},
 		{
-			"categories": ["oro"],
-			"name": "Anillo dragon oro",
+			"categories": ["flor_masa"],
+			"name": "Flor de masa",
 			"values": [
 				{"quantity": 1, "price": 2000},
 				{"quantity": 3, "price": 4500},
 				{"quantity": 10, "price": 10000}
 			],
 			"descripcion": "",
-			"images_folder": "dragon_oro",
+			"images_folder": "flor_masa_1",
 			"images": [
-				{"url": "dragon_oro.jpg"}
+				{"url": "IMG_6696.JPG"},
+				{"url": "IMG_6697.JPG"},
+				{"url": "IMG_6698.JPG"},
+				{"url": "IMG_6699.JPG"},
+				{"url": "IMG_6700.JPG"},
+				{"url": "IMG_6701.JPG"},
+				{"url": "IMG_6704.JPG"}
+			]
+		},
+		{
+			"categories": ["flor_masa"],
+			"name": "Flor de masa 2",
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+			],
+			"descripcion": "",
+			"images_folder": "flor_masa_2",
+			"images": [
+				{"url": "IMG_6702.JPG"},
+				{"url": "IMG_6703.JPG"},
+				{"url": "IMG_6705.JPG"}
+			]
+		},
+		{
+			"categories": ["flor_masa"],
+			"name": "Flor de masa 3",
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+			],
+			"descripcion": "",
+			"images_folder": "flor_masa_3",
+			"images": [
+				{"url": "IMG_6706.JPG"},
+				{"url": "IMG_6707.JPG"},
+				{"url": "IMG_6708.JPG"},
+				{"url": "IMG_6709.JPG"},
+				{"url": "IMG_6710.JPG"},
+				{"url": "IMG_6711.JPG"},
+				{"url": "IMG_6712.JPG"},
+				{"url": "IMG_6713.JPG"},
+				{"url": "IMG_6714.JPG"},
+				{"url": "IMG_6715.JPG"}
 			]
 		},
 		{
@@ -52,7 +108,8 @@
 			"descripcion": "",
 			"hidden": true,
 			"images_folder": "dragon_plata",
-			"images": []
+			"images": [],
+			"special_class": "black"
 		}
 	]
 

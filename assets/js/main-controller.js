@@ -70,6 +70,7 @@ function MainControllerSettings($scope, $http, $modal) {
 	$http.get("db/chatons.json?version="+(new Date().getTime())).success(function(data){
 		$scope.chatons = data;
 		$scope.chatons.items = _.filter($scope.chatons.items, function(item){return !item.hidden});
+		$scope.chatons.categories = _.filter($scope.chatons.categories, function(item){return !item.hidden});
 		$scope.complete_items($scope.chatons.items, "chatons");
 		$scope.complete_categories($scope.chatons.categories);
 		var random_items_index = getRandomIntsArray($scope.chatons.items.length, 3);
@@ -79,6 +80,7 @@ function MainControllerSettings($scope, $http, $modal) {
 	$http.get("db/monedas.json?version="+(new Date().getTime())).success(function(data){
 		$scope.monedas = data;
 		$scope.monedas.items = _.filter($scope.monedas.items, function(item){return !item.hidden});
+		$scope.monedas.categories = _.filter($scope.monedas.categories, function(item){return !item.hidden});
 		$scope.complete_items($scope.monedas.items, "monedas");
 		$scope.complete_categories($scope.monedas.categories);
 		_.forEach($scope.monedas.items, function(moneda){
