@@ -37,7 +37,39 @@
 			</div>
 		</div>
 		<div class="col-xs-6" ng-if="item.collection == 'chatons'">
-			CHATON
+			<div class="row">
+				<div class="col-sm-12 justify description">
+					<p>{{item.description}}</p>
+				</div>
+				
+				
+				
+
+
+				<div class="description row">
+					<div class="col-sm-12 justify centering feature">
+						Caracter&iacute;sticas
+					</div>
+					<div ng-repeat = "feat in item.features">
+						<div class="col-sm-7 item-label feature">{{feat.name}}</div>
+						<div class="col-sm-5">{{feat.type}}</div>	 	
+					</div>
+
+					<div class="col-sm-7 item-label item-label feature">Stock</div>
+					<div class="col-sm-5">{{item.stock}}</div>
+
+				</div>
+
+				<div ng-if="item.instructions" class="description row">
+					<div class="col-sm-12 justify centering feature">
+						Instrucciones
+					</div>
+					<ul class="col-sm-12">
+						<li ng-repeat="inst in item.instructions">{{inst}}</li>
+					</ul>
+				</div>
+
+			</div>
 		</div>
 	</div>
 </div>

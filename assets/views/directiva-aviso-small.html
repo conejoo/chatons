@@ -5,8 +5,8 @@
 	<div class="aviso-resume">
 		<table ng-if="item.collection == 'chatons'">
 			<tr ng-repeat="price in item.values">
-				<td class="quantity">Desde {{price.quantity}} unidades: </td>
-				<td class="price">{{price.price.formatMoney(0)}} x unidad</td>
+				<td class="quantity">Por {{price.quantity}} unidades: </td>
+				<td class="price">{{price.price.formatMoney(0)}}</td>
 			</tr>
 		</table>
 		<table ng-if="item.collection == 'monedas'" >

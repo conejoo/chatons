@@ -1,26 +1,59 @@
 {
 	"categories": [
-		{"hidden": true, "name": "Vinilos", "id": "vinilos", "children": [ 
-				{"name": "Gatitos", "id": "gatitos"},
-				{"name": "Arboles", "id": "arboles"},
-				{"name": "Fotos", "id": "fotos"}
+		{"name": "Sticker", "id": "sticker", "children": [ 
+				{"name": "Gatitos", "id": "sticker_gatitos"},
+				{"name": "Arboles", "id": "sticker_arboles"},
+				{"name": "Fotos", "id": "sticker_fotos"},
+				{"name": "Mariposas", "id": "sticker_mariposas"},
+				{"name": "Columpios", "id": "sticker_columpio"},
+				{"name": "Interruptor de luz", "id": "sticker_interruptor"},
+				{"name": "Baño", "id": "sticker_bano"},
+				{"name": "Flores", "id": "sticker_flores"},
+				{"name": "Pájaros", "id": "sticker_pajaros"}
 		]},
-		{"name": "Aros", "id": "aros", "children":[ 
-				{"name": "Flor de Madera", "id": "flor_madera"},
-				{"name": "Flor de masa", "id": "flor_masa"}
+		{"name": "Infusor de té", "id": "infusorTe", "children":[
+				{"name": "Forma frutilla", "id": "infusor_frutilla"},
+				{"hidden": true, "name": "Forma de cisne", "id": "infusor_cisne"},
+				{"hidden": true, "name": "Forma de humano", "id": "infusor_humano"}
+		]},
+		{"hidden": true, "name": "Usleros", "id": "uslero"},
+		{"name": "Bisutería", "id": "bisuteria", "children":[
+				{"name": "Ganchos de plata", "id": "gancho_plata"}
+		]},
+		{"name": "Juegos", "id": "Juegos", "children":[
+				{"hidden": true, "name": "Steam", "id": "steam"},
+				{"name": "Xbox con Kinect", "id": "xbox_kinect"}
+		]},
+		{"name": "Joyas", "id":"joyas", "children":[
+				{"name": "Anillos", "id": "anillos"},
+				{"hidden": true, "name": "Aros", "id": "aros", "children":[ 
+					{"name": "Flor de Madera", "id": "flor_madera"},
+					{"name": "Flor de masa", "id": "flor_masa"}
+				]},
+				{"name": "Pulsera", "id": "pulsera"}
+		]},
+		{"name": "Decoradores", "id": "decoradores", "children":[
+				{"name": "Tortas",  "id": "decorador_torta"},
+				{"name": "Cupcakes y Macarrons", "id": "decorador_cupcakes"}
+		]},
+		{"name": "Maquinas", "id": "maquina", "children":[
+				{"name": "Pretzel", "id": "maquina_pretzel"}
 		]}
 	],
 	"items":[
 		{
 			"categories": ["flor_madera"],
 			"name": "Aro de madera en forma de flor",
+			"state" : "Nuevo",
+			"stock" : 0,
 			"values": [
-				{"quantity": 1, "price": 2000},
-				{"quantity": 3, "price": 4500},
-				{"quantity": 10, "price": 10000}
+				{"quantity": 1, "price": 500},
+				{"quantity": 3, "price": 1350},
+				{"quantity": 10, "price": 4000}
 			],
-			"descripcion": "Aros con forma de flor de madera. Existen en dos tamaños.",
+			"descripcion": "Aros con forma de flor de madera con ganchos bañados en plata. Existen en dos tamaños 7cms de diametro y de 5cms de diametro.",
 			"images_folder": "flor_madera",
+			"hidden": false,
 			"images": [
 				{"url": "IMG_6677.JPG"},
 				{"url": "IMG_6679.JPG"},
@@ -41,12 +74,15 @@
 		{
 			"categories": ["flor_masa"],
 			"name": "Flor de masa",
+			"state" : "Nuevo",
+			"stock" : 10,
+			"hidden": false,
 			"values": [
-				{"quantity": 1, "price": 2000},
-				{"quantity": 3, "price": 4500},
-				{"quantity": 10, "price": 10000}
+				{"quantity": 1, "price": 700},
+				{"quantity": 3, "price": 1950},
+				{"quantity": 10, "price": 6000}
 			],
-			"descripcion": "",
+			"descripcion": "Aros con forma de flor en masa de 4.5 cms de diametro. Además, posee ganchos bañados en plata.",
 			"images_folder": "flor_masa_1",
 			"images": [
 				{"url": "IMG_6696.JPG"},
@@ -55,20 +91,7 @@
 				{"url": "IMG_6699.JPG"},
 				{"url": "IMG_6700.JPG"},
 				{"url": "IMG_6701.JPG"},
-				{"url": "IMG_6704.JPG"}
-			]
-		},
-		{
-			"categories": ["flor_masa"],
-			"name": "Flor de masa 2",
-			"values": [
-				{"quantity": 1, "price": 2000},
-				{"quantity": 3, "price": 4500},
-				{"quantity": 10, "price": 10000}
-			],
-			"descripcion": "",
-			"images_folder": "flor_masa_2",
-			"images": [
+				{"url": "IMG_6704.JPG"},
 				{"url": "IMG_6702.JPG"},
 				{"url": "IMG_6703.JPG"},
 				{"url": "IMG_6705.JPG"}
@@ -76,13 +99,16 @@
 		},
 		{
 			"categories": ["flor_masa"],
-			"name": "Flor de masa 3",
+			"name": "Flor de masa pequeños",
+			"state" : "Nuevo",
+			"stock" : 10,
 			"values": [
-				{"quantity": 1, "price": 2000},
-				{"quantity": 3, "price": 4500},
-				{"quantity": 10, "price": 10000}
+				{"quantity": 1, "price": 700},
+				{"quantity": 3, "price": 1950},
+				{"quantity": 10, "price": 6000}
 			],
-			"descripcion": "",
+			"descripcion": "Aros con forma de flor en masa de 3cms de diametro. Además, posee ganchos bañados en plata.",
+			"hidden": false,
 			"images_folder": "flor_masa_3",
 			"images": [
 				{"url": "IMG_6706.JPG"},
@@ -98,18 +124,626 @@
 			]
 		},
 		{
-			"categories": ["plata"],
-			"name": "Anillo dragon bañado plata 2",
+			"categories": ["plata", "anillos"],
+			"name": "Anillo dragón bañado en plata",
+			"state" : "Nuevo",
+			"stock" : 2,
 			"values": [
 				{"quantity": 1, "price": 2000},
 				{"quantity": 3, "price": 4500},
 				{"quantity": 10, "price": 10000}
 			],
-			"descripcion": "",
-			"hidden": true,
+			"descripcion": "Anillo de plata con forma de dragón",
+			"hidden": false,
 			"images_folder": "dragon_plata",
-			"images": [],
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_001.JPG"}
+			],
 			"special_class": "black"
+		},
+		{
+			"categories": ["decorador_torta"],
+			"name": "Decorador de Torta",
+			"state" : "Nuevo",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 3000}
+			],
+			"description": "Set de decorador de tortas de plástico, incluye 4 diseños",
+			"hidden": false,
+			"images_folder": "decorador_torta",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"},
+				{"url": "IMG_005.JPG"},
+				{"url": "IMG_006.JPG"}
+			]
+		},
+		{
+			"categories": ["decorador_cupcakes"],
+			"name": "Decorador de cupcakes y macarrons",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 3500}
+			],
+			"description": "Decorador de galletas, cupcakes, macarrons. ",
+			"hidden": false,
+			"images_folder": "decorador",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"},
+				{"url": "IMG_005.JPG"},
+				{"url": "IMG_006.JPG"},
+				{"url": "IMG_007.JPG"},
+				{"url": "IMG_008.JPG"}
+			]
+
+		},
+		{
+			"categories": ["decorador_unas"],
+			"name": "Decorador de uñas",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 3500}
+			],
+			"description": "Decorador de uñas",
+			"hidden": false,
+			"images_folder": "decorador_unas",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"},
+				{"url": "IMG_005.JPG"},
+				{"url": "IMG_006.JPG"},
+				{"url": "IMG_007.JPG"}
+			]
+
+		},
+		{
+			"categories": ["gancho_plata"],
+			"name": "Ganchos bañados en plata",
+			"state" : "Nuevo",
+			"stock" : 700,
+			"values": [
+				{"quantity": 10, "price": 3000},
+				{"quantity": 50, "price": 13750},
+				{"quantity": 100, "price": 25000},
+				{"quantity": 500, "price": 100000}
+			],
+			"description": "Ganchos bañados en plata",
+			"hidden": false,
+			"images_folder": "gancho_plata",
+			"images": [
+				{"url": "IMG_001.JPG"}
+			]
+
+		},
+		{
+			"categories": ["infusor_frutilla"],
+			"name": "Infusor de té con forma de frutilla",
+			"state" : "Nuevo",
+			"stock" : 3,
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+			],
+			"description": "Infusor de té con forma de frutilla",
+			"features" : [
+				{"name":"Material", "type":"Silicona"}, 
+				{"name":"Color", "type":"Rojo"}
+			],
+			"hidden": false,
+			"images_folder": "infusor_frutilla",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"}
+			]
+
+		},
+		{
+			"categories": ["xbox_kinect"],
+			"name": "Juego Gato con botas",
+			"state" : "Usado",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 10000}
+			],
+			"description": "Juego Gatos con botas",
+			"features" : [
+				{"name":"Idioma", "type":"Inglés"}, 
+				{"name":"Plataforma", "type":"Xbox con kinect"}
+			],
+			"hidden": false,
+			"images_folder": "kinect_gato_botas",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"}
+			]
+
+		},
+		{
+			"categories": ["maquina_pretzel"],
+			"name": "Máquina para hacer pretzel",
+			"state" : "Usado",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 16000}
+			],
+			"description": "Máquina de pretzel viene con manual y recetas",
+			"features" : [
+				{"name":"tiempo en hacer un pretzel", "type":"5min"}, 
+				{"name":"Voltaje", "type":"220V"}, 
+				{"name":"Potencia", "type":"750Watts"}, 
+				{"name":"Color", "type":"Blanco"}
+			],
+			"hidden": false,
+			"images_folder": "maquina_pretzel",
+			"images": [
+				{"url": "IMG_001.JPG"}
+			
+			]
+
+		},
+		{
+			"categories": ["pulsera"],
+			"name": "Pulsera Reloj",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 3500}
+			],
+			"description": "Hermoso reloj pulsera, para mirar la hora con estilo",
+			"features" : [
+				{"name":"Color", "type":"Negro y Azul"}
+			],
+			"hidden": false,
+			"images_folder": "reloj_pulsera_piedra",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"},
+				{"url": "IMG_005.JPG"},
+				{"url": "IMG_006.JPG"}
+			
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos"],
+			"name": "Sticker 4 gatitos",
+			"state" : "Nuevo",
+			"stock" : 4,
+			"values": [
+				{"quantity": 1, "price": 4000},
+				{"quantity": 3, "price": 10500},
+				{"quantity": 10, "price": 30000}
+
+			],
+			"description": "Hermoso sticker de gatitos.",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro y Blanco"}, 
+				{"name":"Tamaño envase", "type":"33x21cms"}, 
+				{"name":"Tamaño instalado apróx de un gato", "type":"18x8cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_4_gatos",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"}
+			
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos"],
+			"name": "Sticker 6 gatitos",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 4500},
+				{"quantity": 3, "price": 12000},
+				{"quantity": 10, "price": 35000}
+
+			],
+			"description": "Hermoso sticker de gatitos.",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"70x50cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"variable"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_6_gatos",
+			"images": [
+				{"url": "IMG_001.JPG"}			
+			]
+
+		},
+		{
+			"categories": ["sticker_fotos", "sticker_arboles"],
+			"name": "Sticker árbol con fotos",
+			"state" : "Nuevo",
+			"stock" : 3,
+			"values": [
+				{"quantity": 1, "price": 4500},
+				{"quantity": 3, "price": 12000},
+				{"quantity": 10, "price": 35000}
+
+			],
+			"description": "Hermoso sticker con diseño de árbol para conservar recuerdos.",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"70x50cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"70x90cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_arbol_fotos",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"}
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos", "sticker_arboles", "sticker_columpio"],
+			"name": "Sticker columpio con pareja de gatos",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 5500},
+				{"quantity": 3, "price": 15000},
+				{"quantity": 10, "price": 45000}
+
+			],
+			"description": "Hermoso sticker con diseño de gatitos.",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Multiple"}, 
+				{"name":"Tamaño envase", "type":"70x50cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"100x90cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_columpio_2_gato",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"}			
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos", "sticker_arboles", "sticker_columpio"],
+			"name": "Sticker columpio gato",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 5500},
+				{"quantity": 3, "price": 15000},
+				{"quantity": 10, "price": 45000}
+
+			],
+			"description": "Hermoso sticker con diseño de gatitos.",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro y Verde"}, 
+				{"name":"Tamaño envase", "type":"70x50cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"140x130cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_columpio_gato",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"}		
+			]
+
+		},
+		{
+			"categories": ["sticker_arboles"],
+			"name": "Sticker Diente de León",
+			"state" : "Nuevo",
+			"stock" : 3,
+			"values": [
+				{"quantity": 1, "price": 4500},
+				{"quantity": 3, "price": 10500},
+				{"quantity": 10, "price": 25000}
+
+			],
+			"description": "Hermoso sticker con diseño diente de león.",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"90x60cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"200x135cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_diente_leon",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_002.JPG"}		
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos"],
+			"name": "Sticker Gatitos Direcciones",
+			"state" : "Nuevo",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 5500},
+				{"quantity": 3, "price": 15000},
+				{"quantity": 10, "price": 45000}
+			],
+			"description": "Hermoso sticker con diseño de gatitos",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"65x46cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"140x60cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_direcciones_gato",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"}		
+			]
+
+		},
+		{
+			"categories": ["sticker_interruptor", "sticker_gatitos", "sticker_mariposas", "sticker_flores"],
+			"name": "Sticker para interruptores de luz",
+			"state" : "Nuevo",
+			"stock" : 12,
+			"values": [
+				{"quantity": 1, "price": 1000},
+				{"quantity": 3, "price": 2000},
+				{"quantity": 10, "price": 5500}
+
+			],
+			"description": "Hermoso sticker con diseño de animales, flores y más",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Multiple"}, 
+				{"name":"Tamaño envase", "type":"12x10cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"12x10cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_encendedor_luz",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"},
+				{"url": "IMG_004.JPG"},
+				{"url": "IMG_005.JPG"},
+				{"url": "IMG_006.JPG"},
+				{"url": "IMG_007.JPG"},
+				{"url": "IMG_008.JPG"},
+				{"url": "IMG_009.JPG"},
+				{"url": "IMG_010.JPG"},
+				{"url": "IMG_011.JPG"},
+				{"url": "IMG_012.JPG"}		
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos"],
+			"name": "Sticker Farol con 4 gatitos 70x50cms",
+			"state" : "Nuevo",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 4500},
+				{"quantity": 3, "price": 12600},
+				{"quantity": 10, "price": 38000}
+
+			],
+			"description": "Hermoso sticker con diseño de gatitos",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"70x50ms"}, 
+				{"name":"Tamaño instalado apróx", "type":"143x97cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_farol_gato_4_70x50",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"}	
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos"],
+			"name": "Sticker Farol con 4 gatitos 42x32cms",
+			"state" : "Nuevo",
+			"stock" : 10,
+			"values": [
+				{"quantity": 1, "price": 2500},
+				{"quantity": 3, "price": 6600},
+				{"quantity": 10, "price": 18000}
+
+			],
+			"description": "Hermoso sticker con diseño de gatitos",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"42x32cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"70x30cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_farol_gato_4_42x32",
+			"images": [
+				{"url": "IMG_001.JPG"}
+			]
+
+		},
+		{
+			"categories": ["sticker_gatitos"],
+			"name": "Sticker Farol con 3 gatitos 60x32cms",
+			"state" : "Nuevo",
+			"stock" : 3,
+			"values": [
+				{"quantity": 1, "price": 3000},
+				{"quantity": 3, "price": 8400},
+				{"quantity": 10, "price": 25000}
+
+			],
+			"description": "Hermoso sticker con diseño de gatitos",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"60x32cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"130x40cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_farol_gato_3_60x32",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"}	
+			]
+
+		},
+		{
+			"categories": ["sticker_mariposas"],
+			"name": "Sticker con mariposas",
+			"state" : "Nuevo",
+			"stock" : 2,
+			"values": [
+				{"quantity": 1, "price": 4500},
+				{"quantity": 3, "price": 12000},
+				{"quantity": 10, "price": 35000}
+
+			],
+			"description": "Hermoso sticker con diseño de mariposas",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"70x50cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"50x120cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_mariposa",
+			"images": [
+				{"url": "IMG_001.JPG"}	
+			]
+
+		},
+		{
+			"categories": ["sticker_bano"],
+			"name": "Sticker para el baño",
+			"state" : "Nuevo",
+			"stock" : 3,
+			"values": [
+				{"quantity": 1, "price": 2000},
+				{"quantity": 3, "price": 4500},
+				{"quantity": 10, "price": 10000}
+
+			],
+			"description": "Hermoso sticker para decorar tu baño",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"3x30cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"3x30cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_miron_bano",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"},
+				{"url": "IMG_003.JPG"}
+			]
+
+		},
+		{
+			"categories": ["sticker_arboles", "sticker_pajaros"],
+			"name": "Sticker de aves en árbol",
+			"state" : "Nuevo",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 3000},
+				{"quantity": 3, "price": 7500},
+				{"quantity": 10, "price": 20000}
+
+			],
+			"description": "Hermoso sticker con diseño de aves",
+			"features" : [
+				{"name":"Material", "type":"PVC"}, 
+				{"name":"Color", "type":"Negro"}, 
+				{"name":"Tamaño envase", "type":"25x60cms"}, 
+				{"name":"Tamaño instalado apróx", "type":"25x45cms"}
+			],
+			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
+			"hidden": false,
+			"images_folder": "sticker_pajaros_arbol",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"}
+			]
+
+		},
+		{
+			"categories": ["uslero"],
+			"name": "Uslero con forma de corazones y estrellas",
+			"state" : "Nuevo",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 3500}
+			],
+			"description": "",
+			"hidden": true,
+			"images_folder": "uslero_corazon_estrella",
+			"images": [
+				{"url": "IMG_001.JPG"}
+			]
+
+		},
+		{
+			"categories": ["uslero"],
+			"name": "Uslero con forma de mariposas",
+			"state" : "Nuevo",
+			"stock" : 1,
+			"values": [
+				{"quantity": 1, "price": 3500}
+			],
+			"description": "",
+			"hidden": true,
+			"images_folder": "uslero_mariposa",
+			"images": [
+				{"url": "IMG_001.JPG"}
+			]
+
 		}
 	]
 

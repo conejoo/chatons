@@ -24,3 +24,16 @@
 	border: 1px dashed rgb(35, 0, 247);
 	box-shadow: 0px 4px 5px gray;
 }
+.description{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.feature{
+	color: black;
+	background-color: rgb(227, 232, 232);
+	border: solid 1px white;
+	font-weight: bold;
+}
+.centering{
+	text-align: center;
+}
