@@ -43,7 +43,7 @@
 				{"url": "IMG_6388.JPG"}
 			],
 			"categories": ["colonial", "ngc"],
-			"value": 950000,
+			"value": 790000,
 			"denominacion": "8 Reales (Santiago)",
 			"anio": 1804,
 			"mintage": 129000,
@@ -65,7 +65,7 @@
 				{"url": "IMG_5611.JPG"}
 			],
 			"categories": ["colonial", "zuramerica"],
-			"value": 390000,
+			"value": 340000,
 			"denominacion": "8 Reales (Santiago)",
 			"anio": 1801,
 			"mintage": 185000,
@@ -81,7 +81,7 @@
 				{"url": "rev.jpg"}
 			],
 			"categories": ["ngc", "oro"],
-			"value": 900000,
+			"value": 760000,
 			"denominacion": "100 Pesos",
 			"anio": 1976,
 			"mintage": 2900,
@@ -97,7 +97,7 @@
 				{"url": "rev.jpg"}
 			],
 			"categories": ["colonial", "ngc"],
-			"value": 600000,
+			"value": 590000,
 			"denominacion": "8 Reales",
 			"anio": 1816,
 			"mintage": 386000,
@@ -194,7 +194,7 @@
 				{"url": "IMG_6410.JPG"}
 			],
 			"categories": ["peso_montt", "pcgs"],
-			"value": 240000,
+			"value": 210000,
 			"denominacion": "1 Peso",
 			"anio": 1855,
 			"mintage": 683000,
@@ -424,7 +424,7 @@
 				{"url": "IMG_6113.JPG"}
 			],
 			"categories": ["chilena"],
-			"value": 14000,
+			"value": 12000,
 			"denominacion": "1 Peso",
 			"anio": 1895,
 			"weight": 19.99,
@@ -441,7 +441,7 @@
 				{"url": "IMG_6095.JPG"}
 			],
 			"categories": ["chilena"],
-			"value": 18000,
+			"value": 15000,
 			"denominacion": "1 Peso",
 			"anio": 1895,
 			"weight": 19.87,
@@ -457,7 +457,7 @@
 				{"url": "IMG_6118.JPG"}
 			],
 			"categories": ["chilena"],
-			"value": 14000,
+			"value": 12000,
 			"denominacion": "1 Peso",
 			"anio": 1895,
 			"mintage": 6086000,
@@ -474,7 +474,7 @@
 				{"url": "IMG_6112.JPG"}
 			],
 			"categories": ["chilena"],
-			"value": 15000,
+			"value": 14000,
 			"denominacion": "1 Peso",
 			"anio": 1903,
 			"weight": 19.86,
@@ -565,7 +565,7 @@
 				{"url": "IMG_6014.JPG"}
 			],
 			"categories": ["chilena"],
-			"value": 390000,
+			"value": 340000,
 			"denominacion": "Medalla Conmemorativa. Gobierno Militar",
 			"anio": 1974,
 			"weight": 186,
