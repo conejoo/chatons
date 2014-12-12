@@ -5,7 +5,7 @@
 	<div class="aviso-resume">
 		<table ng-if="item.collection == 'chatons'">
 			<tr ng-repeat="price in item.values">
-				<td class="quantity">Por {{price.quantity}} unidades: </td>
+				<td class="quantity">Por {{price.quantity > 1 ? price.quantity + " unidades" : price.quantity + " unidad" }}</td>
 				<td class="price">{{price.price.formatMoney(0)}}</td>
 			</tr>
 		</table>

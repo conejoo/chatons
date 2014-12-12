@@ -11,14 +11,10 @@
 				{"name": "Flores", "id": "sticker_flores"},
 				{"name": "Pájaros", "id": "sticker_pajaros"}
 		]},
-		{"name": "Infusor de té", "id": "infusorTe", "children":[
-				{"name": "Forma frutilla", "id": "infusor_frutilla"},
-				{"hidden": true, "name": "Forma de cisne", "id": "infusor_cisne"},
-				{"hidden": true, "name": "Forma de humano", "id": "infusor_humano"}
-		]},
+		{"name": "Infusor de té", "id": "infusorTe"},
 		{"hidden": true, "name": "Usleros", "id": "uslero"},
 		{"name": "Bisutería", "id": "bisuteria", "children":[
-				{"name": "Ganchos de plata", "id": "gancho_plata"}
+				{"name": "Ganchos", "id": "gancho"}
 		]},
 		{"name": "Juegos", "id": "Juegos", "children":[
 				{"hidden": true, "name": "Steam", "id": "steam"},
@@ -205,7 +201,7 @@
 
 		},
 		{
-			"categories": ["gancho_plata"],
+			"categories": ["gancho"],
 			"name": "Ganchos bañados en plata",
 			"state" : "Nuevo",
 			"stock" : 700,
@@ -224,7 +220,7 @@
 
 		},
 		{
-			"categories": ["infusor_frutilla"],
+			"categories": ["infusorTe"],
 			"name": "Infusor de té con forma de frutilla",
 			"state" : "Nuevo",
 			"stock" : 3,

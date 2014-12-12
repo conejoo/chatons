@@ -42,9 +42,15 @@
 					<p>{{item.description}}</p>
 				</div>
 				
-				
-				
-
+				<div ng-if="item.values" class="description row" style="margin: 0 auto;width:50%;">
+					<div class=".col-md-12  centering feature">
+						Precios
+					</div>
+					<div ng-repeat = "val in item.values">
+						<div class="col-sm-7 item-label feature">{{val.quantity > 1 ? val.quantity + " unidades" : val.quantity + " unidad" }} </div>
+						<div class="col-sm-5">${{val.price}}</div>	 	
+					</div>
+				</div>
 
 				<div class="description row">
 					<div class="col-sm-12 justify centering feature">
