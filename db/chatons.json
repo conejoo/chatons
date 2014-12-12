@@ -26,10 +26,7 @@
 		]},
 		{"name": "Joyas", "id":"joyas", "children":[
 				{"name": "Anillos", "id": "anillos"},
-				{"hidden": true, "name": "Aros", "id": "aros", "children":[ 
-					{"name": "Flor de Madera", "id": "flor_madera"},
-					{"name": "Flor de masa", "id": "flor_masa"}
-				]},
+				{"name": "Aros", "id": "aros"},
 				{"name": "Pulsera", "id": "pulsera"}
 		]},
 		{"name": "Decoradores", "id": "decoradores", "children":[
@@ -42,16 +39,16 @@
 	],
 	"items":[
 		{
-			"categories": ["flor_madera"],
+			"categories": ["aros"],
 			"name": "Aro de madera en forma de flor",
 			"state" : "Nuevo",
-			"stock" : 0,
+			"stock" : 10,
 			"values": [
 				{"quantity": 1, "price": 500},
 				{"quantity": 3, "price": 1350},
 				{"quantity": 10, "price": 4000}
 			],
-			"descripcion": "Aros con forma de flor de madera con ganchos bañados en plata. Existen en dos tamaños 7cms de diametro y de 5cms de diametro.",
+			"description": "Aros con forma de flor de madera con ganchos bañados en plata. Existen en dos tamaños 7cms de diametro y de 5cms de diametro.",
 			"images_folder": "flor_madera",
 			"hidden": false,
 			"images": [
@@ -72,7 +69,7 @@
 			]
 		},
 		{
-			"categories": ["flor_masa"],
+			"categories": ["aros"],
 			"name": "Flor de masa",
 			"state" : "Nuevo",
 			"stock" : 10,
@@ -82,7 +79,7 @@
 				{"quantity": 3, "price": 1950},
 				{"quantity": 10, "price": 6000}
 			],
-			"descripcion": "Aros con forma de flor en masa de 4.5 cms de diametro. Además, posee ganchos bañados en plata.",
+			"description": "Aros con forma de flor en masa de 4.5 cms de diametro. Además, posee ganchos bañados en plata.",
 			"images_folder": "flor_masa_1",
 			"images": [
 				{"url": "IMG_6696.JPG"},
@@ -98,7 +95,7 @@
 			]
 		},
 		{
-			"categories": ["flor_masa"],
+			"categories": ["aros"],
 			"name": "Flor de masa pequeños",
 			"state" : "Nuevo",
 			"stock" : 10,
@@ -107,7 +104,7 @@
 				{"quantity": 3, "price": 1950},
 				{"quantity": 10, "price": 6000}
 			],
-			"descripcion": "Aros con forma de flor en masa de 3cms de diametro. Además, posee ganchos bañados en plata.",
+			"description": "Aros con forma de flor en masa de 3cms de diametro. Además, posee ganchos bañados en plata.",
 			"hidden": false,
 			"images_folder": "flor_masa_3",
 			"images": [
@@ -133,7 +130,7 @@
 				{"quantity": 3, "price": 4500},
 				{"quantity": 10, "price": 10000}
 			],
-			"descripcion": "Anillo de plata con forma de dragón",
+			"description": "Anillo de plata con forma de dragón",
 			"hidden": false,
 			"images_folder": "dragon_plata",
 			"images": [
