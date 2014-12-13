@@ -1,6 +1,8 @@
-app.controller('mainController', ['$scope', '$http', '$modal', MainControllerSettings]);
+app.controller('mainController', ['$scope', '$http', '$modal', '$location', MainControllerSettings]);
 
-function MainControllerSettings($scope, $http, $modal) {
+function MainControllerSettings($scope, $http, $modal, $location) {
+	var start_categoria = $location.search().categoria;
+	var start_collection = $location.search().coleccion;
 	function getRandomInt(min, max) {
 		return Math.floor(Math.random() * (max - min)) + min;
 	}
@@ -27,6 +29,17 @@ function MainControllerSettings($scope, $http, $modal) {
 		'background-image': "url('imagenes/fondo" + getRandomInt(1, 33) + ".jpg')"
 	};
 	$scope.filtered_items = [];
+	$scope.find_category_by_id = function(categories, category_id){
+		for(var i = 0;i < categories.length; i++){
+			var current_cat = categories[i];
+			if(current_cat.id == category_id)
+				return current_cat;
+			current_cat = _.find(current_cat.children, function(child){return child.id == category_id});
+			if(current_cat)
+				return current_cat;
+		}
+		return undefined;
+	};
 	$scope.complete_items = function(items, collection){
 		for(var i = 0;i<items.length;i++){
 			var text = "";
@@ -59,6 +72,8 @@ function MainControllerSettings($scope, $http, $modal) {
 		$scope.selected_category = category;
 		$scope.last_fn = $scope.pick_new_category_monedas;
 		$scope.filtrotext = "";
+		$location.search('categoria', category.id);
+		$location.search('coleccion', 'monedas');
 	}
 	$scope.pick_new_category_chatons = function(category){
 		var filter = function(item){return $scope.check_category(item, category);};
@@ -66,6 +81,8 @@ function MainControllerSettings($scope, $http, $modal) {
 		$scope.selected_category = category;
 		$scope.last_fn = $scope.pick_new_category_chatons;
 		$scope.filtrotext = "";
+		$location.search('categoria', category.id);
+		$location.search('coleccion', 'chatons');
 	};
 	$http.get("db/chatons.json?version="+(new Date().getTime())).success(function(data){
 		$scope.chatons = data;
@@ -73,9 +90,18 @@ function MainControllerSettings($scope, $http, $modal) {
 		$scope.chatons.categories = _.filter($scope.chatons.categories, function(item){return !item.hidden});
 		$scope.complete_items($scope.chatons.items, "chatons");
 		$scope.complete_categories($scope.chatons.categories);
-		var random_items_index = getRandomIntsArray($scope.chatons.items.length, 3);
-		for(var i = 0;i < random_items_index.length; i++)
-			$scope.filtered_items.unshift($scope.chatons.items[random_items_index[i]]);
+		if(start_collection == 'chatons'){
+			var start_cat_obj = $scope.find_category_by_id($scope.chatons.categories, start_categoria);
+			if(start_cat_obj)
+				$scope.pick_new_category_chatons(start_cat_obj);
+			else 
+				start_collection = undefined;
+		}
+		if(!start_collection){
+			var random_items_index = getRandomIntsArray($scope.chatons.items.length, 3);
+			for(var i = 0;i < random_items_index.length; i++)
+				$scope.filtered_items.unshift($scope.chatons.items[random_items_index[i]]);
+		}
 	});
 	$http.get("db/monedas.json?version="+(new Date().getTime())).success(function(data){
 		$scope.monedas = data;
@@ -86,8 +112,17 @@ function MainControllerSettings($scope, $http, $modal) {
 		_.forEach($scope.monedas.items, function(moneda){
 			moneda.krause_description = $scope.monedas.krause[moneda.krause];
 		});
-		var random_items_index = getRandomIntsArray($scope.monedas.items.length, 3);
-		for(var i = 0;i < random_items_index.length; i++)
-			$scope.filtered_items.push($scope.monedas.items[random_items_index[i]]);
+		if(start_collection == 'monedas'){
+			var start_cat_obj = $scope.find_category_by_id($scope.monedas.categories, start_categoria);
+			if(start_cat_obj)
+				$scope.pick_new_category_monedas(start_cat_obj);
+			else
+				start_collection = undefined;
+		}
+		if(!start_collection){
+			var random_items_index = getRandomIntsArray($scope.monedas.items.length, 3);
+			for(var i = 0;i < random_items_index.length; i++)
+				$scope.filtered_items.push($scope.monedas.items[random_items_index[i]]);
+		}
 	});
 }
