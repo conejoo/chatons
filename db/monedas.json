@@ -88,6 +88,7 @@
 			"value": 760000,
 			"denominacion": "100 Pesos",
 			"anio": 1976,
+			"hidden": true,
 			"mintage": 2900,
 			"certification": "NGC",
 			"description": "Certificado por NGC: <a href=\"http://www.ngccoin.com/certlookup/index.aspx?CertNumber=3504094-007\" target=\"_blank\">Ver Moneda en NGC</a> Subastado por Heritage Auctions. Sin circular - Estado MS-64.",
