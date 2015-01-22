@@ -16,6 +16,7 @@
 		{"name": "Extranjeras", "id": "extranjeras", "children": []}
 	],
 	"krause":{
+		"PN4": "8 Escudos. Cooper. Plumed arms with supporters. Standing liberty",
 		"KM82.2": "KM # 82.2 PESO 0.9020 Silver, 39.5 mm.Obv: VolcanoRev: Y to left of pillar",
 		"KM128": "KM# 128 50 CENTAVOS 12.5000 g., 0.9000 Silver 0.3617 oz. ASW, 30 mm.Obv: Plumed arms within wreathRev: Condor with wings spread Edge: ReededNote: Struck under law of January 9, 1851 and decree of March 19, 1851.",
 		"KM142.1": "KM # 142.1 PESO 25.0000 g., 0.9000 Silver 0.7234 oz. ASW, 37 mm.Obv: Plumed arms within wreathRev: Condor with wings spread and shieldNote: Struck by law of October 21, 1865.",
@@ -210,6 +211,25 @@
 			"krause": "KM82.2"
 		},
 		{
+			"name": "8 Escudos - Patrón de cobre - NGC",
+			"images_folder": "1836 8 Escudos Pattern",
+			"images": [
+				{"url": "IMG_6900.JPG"},
+				{"url": "IMG_6899.JPG"},
+				{"url": "IMG_6901.JPG"},
+				{"url": "IMG_6902.JPG"},
+				{"url": "IMG_6905.JPG"},
+				{"url": "IMG_6906.JPG"}
+			],
+			"categories": ["ngc", "peso_independiente"],
+			"value": 320000,
+			"denominacion": "8 Escudos",
+			"anio": 1836,
+			"certification": "NGC",
+			"description": "Prueba en cobre de moneda de 8 escudos, año 1836. Certificado y encapsulado por NGC: <a href=\"http://www.ngccoin.com/certlookup/index.aspx?CertNumber=2779145-005\" target=\"_blank\">Ver Moneda en NGC</a>",
+			"krause": "PN4"
+		},
+		{
 			"name": "1853 50 Centavos - SS Central",
 			"images_folder": "1853 50 Centavos",
 			"images": [
@@ -286,6 +306,22 @@
 			"mintage": 156000,
 			"description": "",
 			"krause": "KM133"
+		},
+		{
+			"name": "1873 Peso Águila",
+			"images_folder": "1873 Peso aguila",
+			"images": [
+				{"url": "IMG_6891.JPG"},
+				{"url": "IMG_6892.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 55000,
+			"denominacion": "1 Peso",
+			"anio": 1873,
+			"weight": 24.84,
+			"mintage": 323000,
+			"description": "Peso Aguila, 0.9 plata.",
+			"krause": "KM142.1"
 		},
 		{
 			"name": "1875 Peso Águila",
@@ -438,6 +474,22 @@
 			"weight": 24.95,
 			"mintage": 1397000,
 			"description": "Peso Aguila, 0.9 plata",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1884 Peso Águila - Sello Guatemala 1894",
+			"images_folder": "1884 Peso aguila - resello",
+			"images": [
+				{"url": "IMG_6908.JPG"},
+				{"url": "IMG_6909.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 80000,
+			"denominacion": "1 Peso",
+			"anio": 1884,
+			"weight": 24.80,
+			"mintage": 1812000,
+			"description": "Peso Aguila, 0.9 plata. Buenas condiciones, con resello de guatemala de 1894.",
 			"krause": "KM142.1"
 		},
 		{
