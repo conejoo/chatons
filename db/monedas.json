@@ -361,22 +361,23 @@
 		},
 		{
 			"name": "1877 Peso Águila",
-			"images_folder": "1877 Peso aguila - 1",
+			"images_folder": "1877 Peso aguila",
 			"images": [
-				{"url": "IMG_6817.JPG"},
-				{"url": "IMG_6818.JPG"},
-				{"url": "IMG_6819.JPG"},
-				{"url": "IMG_6851.JPG"},
-				{"url": "IMG_6852.JPG"}
+				{"url": "DSC00956.JPG"},
+				{"url": "DSC00957.JPG"},
+				{"url": "DSC00958.JPG"},
+				{"url": "DSC00959.JPG"},
+				{"url": "DSC00960.JPG"},
+				{"url": "DSC00961.JPG"},
+				{"url": "DSC00962.JPG"}
 			],
 			"categories": ["peso_aguila"],
-			"value": 39000,
+			"value": 45000,
 			"denominacion": "1 Peso",
 			"anio": 1877,
-			"hidden": true,
 			"weight": 24.78,
 			"mintage": 1930000,
-			"description": "Peso Aguila, 0.9 plata",
+			"description": "Buenas condiciones. Peso Aguila, 0.9 plata",
 			"krause": "KM142.1"
 		},
 		{
@@ -711,6 +712,23 @@
 			"mintage": 75000,
 			"description": "92,50% contenido de plata.",
 			"krause": "KM230"
-		}
+		},
+		{
+			"name": "Lote de 120 monedas Romanas",
+			"images_folder": "lote romanas",
+			"images": [
+				{"url": "DSC00963.JPG"},
+				{"url": "DSC00964.JPG"},
+				{"url": "DSC00965.JPG"},
+				{"url": "DSC00966.JPG"},
+				{"url": "DSC00967.JPG"},
+				{"url": "DSC00968.JPG"},
+				{"url": "DSC00969.JPG"}
+			],
+			"categories": ["chilena"],
+			"value": 70000,
+			"hidden": false,
+			"description": "Lote de 120 monedas romanas de baja calidad"
+		},
 	]
 }
