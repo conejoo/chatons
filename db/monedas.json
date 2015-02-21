@@ -250,14 +250,10 @@
 		},
 		{
 			"name": "1/2 Centavo - Cobre",
-			"images_folder": "1835 Medio centavo",
+			"images_folder": "1835 - Medio Centavo",
 			"images": [
-				{"url": "IMG_6900.JPG"},
-				{"url": "IMG_6899.JPG"},
-				{"url": "IMG_6901.JPG"},
-				{"url": "IMG_6902.JPG"},
-				{"url": "IMG_6905.JPG"},
-				{"url": "IMG_6906.JPG"}
+				{"url": "DSC01303.JPG"},
+				{"url": "DSC01304.JPG"}
 			],
 			"categories": [ "chilena"],
 			"value": 25000,
@@ -564,7 +560,7 @@
 			"value": 34000,
 			"denominacion": "1 Peso",
 			"anio": 1883,
-			"weight": 24.95,
+			"weight": 25.00,
 			"mintage": 1397000,
 			"description": "Peso Aguila, 0.9 plata",
 			"krause": "KM142.1"
@@ -613,10 +609,10 @@
 				{"url": "DSC01273.JPG"}
 			],
 			"categories": ["peso_aguila"],
-			"value": 27000,
+			"value": 26000,
 			"denominacion": "1 Peso",
 			"anio": 1884,
-			"weight": 24.99,
+			"weight": 24.50,
 			"mintage": 1812000,
 			"description": "Peso Aguila, 0.9 plata.",
 			"krause": "KM142.1"
@@ -632,7 +628,7 @@
 			"value": 50000,
 			"denominacion": "1 Peso",
 			"anio": 1884,
-			"weight": 24.99,
+			"weight": 24.78,
 			"mintage": 1812000,
 			"description": "Peso Aguila, 0.9 plata. Muy buenas condiciones.",
 			"krause": "KM142.1"
@@ -664,10 +660,10 @@
 				{"url": "DSC01275.JPG"}
 			],
 			"categories": ["peso_aguila"],
-			"value": 45000,
+			"value": 40000,
 			"denominacion": "1 Peso",
 			"anio": 1886,
-			"weight": 24.63,
+			"weight": 24.43,
 			"mintage": 966000,
 			"description": "Peso Aguila, 0.9 plata.",
 			"krause": "KM142.1"
@@ -684,7 +680,7 @@
 			"denominacion": "1 Peso",
 			"hidden": true,
 			"anio": 1889,
-			"weight": 24.63,
+			"weight": 24.76,
 			"mintage": 241000,
 			"description": "Peso Aguila, 0.9 plata.",
 			"krause": "KM142.1"
