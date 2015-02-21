@@ -32,9 +32,47 @@
 		"KM213": "KM # 213 100 PESOS 20.3000 g., 0.9000 Gold 0.5874 oz. AGWSubject: 3rd Anniversary of New GovernmentObv: Coat of arms above date and denominationRev: Winged figure with upraised arms, two dates above.",
 		"KM183": "KM # 183 10 PESOS 45.0000 g., 0.9990 Silver 1.4453 oz. ASWSubject: Arrival of Liberation Fleet in 1820 under command of Lord CochraneRev: Liberation fleet, dates below.",
 		"KM129": "KM # 129 PESO 25.0000 g., 0.9000 Silver 0.7234 oz. ASW, 37 mm.Obv: Plumed arms within wreathRev: Condor with shield at rightEdge: ReededNote: Struck under law of January 9, 1851 and decree of March 19, 1851.",
-		"KM230": "KM # 230 10000 PESOS 27.0000 g., 0.9250 Silver 0.8029 oz. ASWSeries: Ibero - AmericanObv: Inner circle holds Coat of Arms, denomination within outer circle, 13 shields surroundRev: Three dates below three ships, globe in background"
+		"KM230": "KM # 230 10000 PESOS 27.0000 g., 0.9250 Silver 0.8029 oz. ASWSeries: Ibero - AmericanObv: Inner circle holds Coat of Arms, denomination within outer circle, 13 shields surroundRev: Three dates below three ships, globe in background",
+		"KM106.2": "KM # 106.2 8 REALES 27.0674 g., 0.9030 Silver 0.7858 oz. ASWRuler: Charles III Obv: Armored bust of Charles III, rightObv. Legend: CAROLUS • III • DEI • GRATIA •Rev: Crowned shield flanked by pillars with banner, normal initials and mint markRev. Legend: • HISPAN • ET IND • REX • ...Note: Mint mark M, Mo",
+		"KM234": "KM # 234 8 REALES Copper. Issuer: SUD, Under General MorelosObv: Bow, arrow, SUD in floral ornamentationRev: Morelos monogram, .8.R., date surrounded by ornate flowery fields",
+		"KM114": "KM # 114 1/2 CENTAVO 8.9000 g., Copper, 22.1 mm.Obv: 5-pointed flat starRev: Laurel wreath surrounds MEDIO CENTAVOEdge: PlainNote: Thick planchet. Coin alignment. Varieties exist. Struck in England, Chilean law of October 24, 1834"
 	},
 	"items":[
+		{
+			"name": "2 Denarios - Philip I - 244-249 D.C.",
+			"images_folder": "200 - Phillip III - Romana",
+			"images": [
+				{"url": "DSC01298.JPG"},
+				{"url": "DSC01299.JPG"},
+				{"url": "DSC01300.JPG"},
+				{"url": "DSC01301.JPG"},
+				{"url": "DSC01302.JPG"}
+			],
+			"categories": ["extranjeras"],
+			"value": 98000,
+			"denominacion": "2 Denarios",
+			"anio": 246,
+			"weight": 3.91,
+			"description": "Moneda de plata romana de plata, certificada y encapsulada por NGC."
+		},
+		{
+			"name": "1780 8 Reales (México)",
+			"images_folder": "1780 - 8 Reales - Mexico",
+			"images": [
+				{"url": "DSC01289.JPG"},
+				{"url": "DSC01290.JPG"},
+				{"url": "DSC01291.JPG"},
+				{"url": "DSC01292.JPG"},
+				{"url": "DSC01342.JPG"}
+			],
+			"categories": ["extranjeras"],
+			"value": 79000,
+			"denominacion": "8 Reales (Mexico)",
+			"anio": 1780,
+			"weight": 24.92,
+			"description": "La moneda tiene un sector del canto manipulado. Comprada en subasta internacional Cayón.",
+			"krause": "KM106.2"
+		},
 		{
 			"name": "1804 8 Reales (Santiago) - NGC",
 			"images_folder": "1804 8 Reales - NGC",
@@ -211,6 +249,24 @@
 			"krause": "KM82.2"
 		},
 		{
+			"name": "1/2 Centavo - Cobre",
+			"images_folder": "1835 Medio centavo",
+			"images": [
+				{"url": "IMG_6900.JPG"},
+				{"url": "IMG_6899.JPG"},
+				{"url": "IMG_6901.JPG"},
+				{"url": "IMG_6902.JPG"},
+				{"url": "IMG_6905.JPG"},
+				{"url": "IMG_6906.JPG"}
+			],
+			"categories": [ "chilena"],
+			"value": 25000,
+			"denominacion": "Medio Centavo",
+			"anio": 1835,
+			"description": "Medio Centavo 1835, cobre. Buenas condiciones.",
+			"krause": "KM114"
+		},
+		{
 			"name": "8 Escudos - Patrón de cobre - NGC",
 			"images_folder": "1836 8 Escudos Pattern",
 			"images": [
@@ -221,7 +277,7 @@
 				{"url": "IMG_6905.JPG"},
 				{"url": "IMG_6906.JPG"}
 			],
-			"categories": ["ngc", "peso_independiente"],
+			"categories": ["ngc"],
 			"value": 320000,
 			"denominacion": "8 Escudos",
 			"anio": 1836,
@@ -460,18 +516,36 @@
 		},
 		{
 			"name": "1883 Peso Águila",
-			"images_folder": "1883 Peso aguila - 1",
+			"images_folder": "1883 Peso aguila - 4",
 			"images": [
-				{"url": "IMG_6836.JPG"},
-				{"url": "IMG_6837.JPG"},
-				{"url": "IMG_6847.JPG"},
-				{"url": "IMG_6848.JPG"}
+				{"url": "IMG_6917.JPG"},
+				{"url": "IMG_6918.JPG"},
+				{"url": "IMG_6919.JPG"},
+				{"url": "IMG_6920.JPG"},
+				{"url": "IMG_6921.JPG"},
+				{"url": "IMG_6922.JPG"},
+				{"url": "IMG_6923.JPG"}
 			],
 			"categories": ["peso_aguila"],
-			"value": 40000,
+			"value": 49000,
 			"denominacion": "1 Peso",
 			"anio": 1883,
-			"hidden": true,
+			"weight": 24.95,
+			"mintage": 1397000,
+			"description": "Peso Aguila, 0.9 plata. Casi sin circular.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1883 Peso Águila",
+			"images_folder": "1883 Peso aguila - 5",
+			"images": [
+				{"url": "DSC01278.JPG"},
+				{"url": "DSC01279.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 34000,
+			"denominacion": "1 Peso",
+			"anio": 1883,
 			"weight": 24.95,
 			"mintage": 1397000,
 			"description": "Peso Aguila, 0.9 plata",
@@ -488,6 +562,7 @@
 			"value": 80000,
 			"denominacion": "1 Peso",
 			"anio": 1884,
+			"hidden": true,
 			"weight": 24.80,
 			"mintage": 1812000,
 			"description": "Peso Aguila, 0.9 plata. Buenas condiciones, con resello de guatemala de 1894.",
@@ -513,6 +588,38 @@
 			"krause": "KM142.1"
 		},
 		{
+			"name": "1884 Peso Águila",
+			"images_folder": "1884 Peso aguila - 4",
+			"images": [
+				{"url": "DSC01272.JPG"},
+				{"url": "DSC01273.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 27000,
+			"denominacion": "1 Peso",
+			"anio": 1884,
+			"weight": 24.99,
+			"mintage": 1812000,
+			"description": "Peso Aguila, 0.9 plata.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1884 Peso Águila",
+			"images_folder": "1884 Peso aguila - 7",
+			"images": [
+				{"url": "DSC01345.JPG"},
+				{"url": "DSC01346.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 50000,
+			"denominacion": "1 Peso",
+			"anio": 1884,
+			"weight": 24.99,
+			"mintage": 1812000,
+			"description": "Peso Aguila, 0.9 plata. Muy buenas condiciones.",
+			"krause": "KM142.1"
+		},
+		{
 			"name": "1885 Peso Águila",
 			"images_folder": "1885 Peso aguila",
 			"images": [
@@ -528,6 +635,39 @@
 			"hidden": true,
 			"weight": 24.63,
 			"mintage": 528000,
+			"description": "Peso Aguila, 0.9 plata.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1886 Peso Águila",
+			"images_folder": "1886 Peso aguila",
+			"images": [
+				{"url": "DSC01274.JPG"},
+				{"url": "DSC01275.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 45000,
+			"denominacion": "1 Peso",
+			"anio": 1886,
+			"weight": 24.63,
+			"mintage": 966000,
+			"description": "Peso Aguila, 0.9 plata.",
+			"krause": "KM142.1"
+		},
+		{
+			"name": "1889 Peso Águila",
+			"images_folder": "1889 Peso aguila",
+			"images": [
+				{"url": "DSC01276.JPG"},
+				{"url": "DSC01277.JPG"}
+			],
+			"categories": ["peso_aguila"],
+			"value": 60000,
+			"denominacion": "1 Peso",
+			"hidden": true,
+			"anio": 1889,
+			"weight": 24.63,
+			"mintage": 241000,
 			"description": "Peso Aguila, 0.9 plata.",
 			"krause": "KM142.1"
 		},
