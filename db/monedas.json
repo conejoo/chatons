@@ -305,6 +305,24 @@
 			"krause": "KM125"
 		},
 		{
+			"name": "1853 Peso Montt",
+			"images_folder": "1853 - Peso Montt",
+			"images": [
+				{"url": "IMG_6913.JPG"},
+				{"url": "IMG_6914.JPG"},
+				{"url": "IMG_6915.JPG"},
+				{"url": "IMG_6916.JPG"}
+			],
+			"categories": ["peso_montt"],
+			"value": 160000,
+			"denominacion": "1 Peso",
+			"anio": 1853,
+			"mintage": 394000,
+			"weight": 24.60,
+			"description": "Primer año de los pesos Montt. Peso Montt 1853. 0,9 de plata.",
+			"krause": "KM129"
+		},
+		{
 			"name": "1855 Peso Montt - SS Central - PCGS",
 			"images_folder": "1855 Peso Montt - SS Central",
 			"images": [
@@ -316,7 +334,7 @@
 				{"url": "IMG_6410.JPG"}
 			],
 			"categories": ["peso_montt", "pcgs"],
-			"value": 210000,
+			"value": 683000,
 			"denominacion": "1 Peso",
 			"anio": 1855,
 			"mintage": 683000,
