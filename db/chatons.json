@@ -333,7 +333,7 @@
 				{"name":"Tamaño instalado apróx de un gato", "type":"18x8cms"}
 			],
 			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
-			"hidden": false,
+			"hidden": true,
 			"images_folder": "sticker_4_gatos",
 			"images": [
 				{"url": "IMG_001.JPG"},
