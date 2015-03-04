@@ -564,7 +564,7 @@
 				{"name":"Tamaño instalado apróx", "type":"143x97cms"}
 			],
 			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
-			"hidden": false,
+			"hidden": true,
 			"images_folder": "sticker_farol_gato_4_70x50",
 			"images": [
 				{"url": "IMG_001.JPG"},
