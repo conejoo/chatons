@@ -321,6 +321,23 @@
 			"krause": "KM129"
 		},
 		{
+			"name": "1854 Peso Montt",
+			"images_folder": "1854 Peso Montt",
+			"images": [
+				{"url": "DSC01416.JPG"},
+				{"url": "DSC01415.JPG"},
+				{"url": "DSC01413.JPG"}
+			],
+			"categories": ["peso_montt"],
+			"value": 140000,
+			"denominacion": "1 Peso",
+			"anio": 1854,
+			"mintage": 567000,
+			"weight": 24.57,
+			"description": "Peso Montt 1854. 0,9 de plata.",
+			"krause": "KM129"
+		},
+		{
 			"name": "1855 Peso Montt - SS Central - PCGS",
 			"images_folder": "1855 Peso Montt - SS Central",
 			"images": [
@@ -821,15 +838,14 @@
 			"name": "1968 10 Pesos",
 			"images_folder": "1968 10 Pesos",
 			"images": [
-				{"url": "IMG_6405.JPG"},
-				{"url": "IMG_6406.JPG"}
+				{"url": "DSC01421.JPG"},
+				{"url": "DSC01423.JPG"},
+				{"url": "DSC01422.JPG"}
 			],
 			"categories": ["chilena"],
-			"value": 165000,
+			"value": 125000,
 			"denominacion": "10 Pesos",
 			"anio": 1968,
-			"weight": 45.0,
-			"hidden": true,
 			"mintage": 1215,
 			"description": "99,9% contenido de plata.",
 			"krause": "KM183"
