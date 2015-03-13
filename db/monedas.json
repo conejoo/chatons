@@ -151,6 +151,24 @@
 			"krause": "KM80"
 		},
 		{
+			"name": "1816 8 Reales (Santiago) - NGC - AUNC",
+			"images_folder": "1816 8 Reales - NGC2",
+			"images": [
+				{"url": "DSC01446.JPG"},
+				{"url": "DSC01447.JPG"},
+				{"url": "DSC01448.JPG"},
+				{"url": "DSC01449.JPG"}
+			],
+			"categories": ["colonial", "ngc"],
+			"value": 430000,
+			"denominacion": "8 Reales",
+			"anio": 1816,
+			"mintage": 386000,
+			"certification": "NGC",
+			"description": "Certificado por NGC: <a href=\"http://www.ngccoin.com/certlookup/index.aspx?CertNumber=3708858-002\" target=\"_blank\">Ver Moneda en NGC</a>. Casi sin circular - Estado AU - Falla en cospel.",
+			"krause": "KM80"
+		},
+		{
 			"name": "1814 8 Reales (Santiago) - Aureo",
 			"images_folder": "1814 8 Reales Santiago - Aureo",
 			"images": [
