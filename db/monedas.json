@@ -138,6 +138,11 @@
 			"name": "1816 8 Reales (Santiago) - NGC",
 			"images_folder": "1816 8 Reales - NGC",
 			"images": [
+				{"url": "DSC01334.JPG"},
+				{"url": "DSC01335.JPG"},
+				{"url": "DSC01336.JPG"},
+				{"url": "DSC01337.JPG"},
+				{"url": "DSC01338.JPG"},
 				{"url": "obv.jpg"},
 				{"url": "rev.jpg"}
 			],
