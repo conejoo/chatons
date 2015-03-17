@@ -95,6 +95,27 @@
 			"krause": "KM51"
 		},
 		{
+			"name": "1807 8 Reales (Santiago)",
+			"images_folder": "1807 8 Reales",
+			"images": [
+				{"url": "DSC01466.JPG"},
+				{"url": "DSC01463.JPG"},
+				{"url": "DSC01464.JPG"},
+				{"url": "DSC01465.JPG"},
+				{"url": "DSC01467.JPG"},
+				{"url": "DSC01468.JPG"},
+				{"url": "DSC01469.JPG"}
+			],
+			"categories": ["colonial"],
+			"value": 740000,
+			"denominacion": "8 Reales (Santiago)",
+			"anio": 1807,
+			"mintage": 94000,
+			"certification": "Particular",
+			"description": "Certificado por tienda 'Antic World'. Buenas condiciones. Escaso.",
+			"krause": "KM51"
+		},
+		{
 			"name": "1801 8 Reales (Santiago) - Zuramerica",
 			"images_folder": "1801 8 Reales",
 			"images": [
