@@ -1,6 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 body, html{
 	min-height: 100%;
 	min-width: 100%;
+}
+
+.title-brand{
+    font-family: 'Lobster', sans-serif;
+    font-size: 70px;
+
 }
 .main-container{
 	max-width: 2000px;
@@ -87,6 +95,7 @@ footer .contact{
 .topbar .title .subtitle{
 	font-size: 20px;
 	display: inline-block;
+	font-family: 'Lobster', sans-serif;
 }
 .topbar h1{
 	font-size: 80px;
@@ -122,6 +131,9 @@ footer .contact{
 		font-size: 50px;
 		margin-top: 10px;
 	}
+	.title-brand{
+    	font-size: 50px;
+	}
 	.topbar .title .subtitle{
 		width: 400px;
 	}
@@ -147,6 +159,10 @@ footer .contact{
 		font-size: 34px;
 		margin-top: 20px;
 	}
+	.title-brand{
+		font-size: 34px;
+		margin-top: 20px;
+	}
 	.topbar .title .subtitle{
 		width: 300px;
 	}
@@ -159,6 +175,9 @@ footer .contact{
 }
 @media (max-width: 490px) {
 	.topbar h1{
+		margin-top: 32px;
+	}
+	.title-brand{
 		margin-top: 32px;
 	}
 	.topbar .title .subtitle{

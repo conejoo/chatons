@@ -159,7 +159,7 @@
 			"categories": ["decorador_cupcakes"],
 			"name": "Decorador de cupcakes y macarrons",
 			"state" : "Nuevo",
-			"stock" : 2,
+			"stock" : 1,
 			"values": [
 				{"quantity": 1, "price": 3500}
 			],
@@ -223,7 +223,7 @@
 			"categories": ["infusorTe"],
 			"name": "Infusor de té con forma de frutilla",
 			"state" : "Nuevo",
-			"stock" : 3,
+			"stock" : 21,
 			"values": [
 				{"quantity": 1, "price": 2000},
 				{"quantity": 3, "price": 4500},
@@ -245,10 +245,56 @@
 
 		},
 		{
+			"categories": ["infusorTe"],
+			"name": "Infusor de té con forma de humano",
+			"state" : "Nuevo",
+			"stock" : 3,
+			"values": [
+				{"quantity": 1, "price": 5000},
+				{"quantity": 3, "price": 13500},
+				{"quantity": 10, "price": 40000}
+			],
+			"description": "Infusor de té con forma de humano",
+			"features" : [
+				{"name":"Material", "type":"Silicona"}, 
+				{"name":"Color", "type":"blanco con plomo"}
+			],
+			"hidden": false,
+			"images_folder": "infusor_humano",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"}
+			]
+
+		},
+		{
+			"categories": ["infusorTe"],
+			"name": "Infusor de té con forma de cisne",
+			"state" : "Nuevo",
+			"stock" : 9,
+			"values": [
+				{"quantity": 1, "price": 2500},
+				{"quantity": 3, "price": 6000},
+				{"quantity": 10, "price": 15000}
+			],
+			"description": "Infusor de té con forma de cisne",
+			"features" : [
+				{"name":"Material", "type":"Plástico"}, 
+				{"name":"Color", "type":"Negro"}
+			],
+			"hidden": false,
+			"images_folder": "infusor_cisne",
+			"images": [
+				{"url": "IMG_001.JPG"},
+				{"url": "IMG_002.JPG"}
+			]
+
+		},
+		{
 			"categories": ["xbox_kinect"],
 			"name": "Juego Gato con botas",
 			"state" : "Usado",
-			"stock" : 1,
+			"stock" : 0,
 			"values": [
 				{"quantity": 1, "price": 10000}
 			],
@@ -257,7 +303,7 @@
 				{"name":"Idioma", "type":"Inglés"}, 
 				{"name":"Plataforma", "type":"Xbox con kinect"}
 			],
-			"hidden": false,
+			"hidden": true,
 			"images_folder": "kinect_gato_botas",
 			"images": [
 				{"url": "IMG_001.JPG"},
@@ -272,7 +318,7 @@
 			"state" : "Usado",
 			"stock" : 1,
 			"values": [
-				{"quantity": 1, "price": 16000}
+				{"quantity": 1, "price": 17000}
 			],
 			"description": "Máquina de pretzel viene con manual y recetas",
 			"features" : [
@@ -318,14 +364,14 @@
 			"categories": ["sticker_gatitos"],
 			"name": "Sticker 4 gatitos",
 			"state" : "Nuevo",
-			"stock" : 4,
+			"stock" : 3,
 			"values": [
 				{"quantity": 1, "price": 4000},
 				{"quantity": 3, "price": 10500},
 				{"quantity": 10, "price": 30000}
 
 			],
-			"description": "Hermoso sticker de gatitos.",
+			"description": "Hermoso sticker de gatitos. Negro queda 1 unidad y en blanco 2 unidades.",
 			"features" : [
 				{"name":"Material", "type":"PVC"}, 
 				{"name":"Color", "type":"Negro y Blanco"}, 
@@ -347,7 +393,7 @@
 			"categories": ["sticker_gatitos"],
 			"name": "Sticker 6 gatitos",
 			"state" : "Nuevo",
-			"stock" : 2,
+			"stock" : 1,
 			"values": [
 				{"quantity": 1, "price": 4500},
 				{"quantity": 3, "price": 12000},
@@ -373,7 +419,7 @@
 			"categories": ["sticker_fotos", "sticker_arboles"],
 			"name": "Sticker árbol con fotos",
 			"state" : "Nuevo",
-			"stock" : 3,
+			"stock" : 1,
 			"values": [
 				{"quantity": 1, "price": 4500},
 				{"quantity": 3, "price": 12000},
@@ -457,7 +503,7 @@
 			"categories": ["sticker_arboles"],
 			"name": "Sticker Diente de León",
 			"state" : "Nuevo",
-			"stock" : 3,
+			"stock" : 0,
 			"values": [
 				{"quantity": 1, "price": 4500},
 				{"quantity": 3, "price": 10500},
@@ -472,7 +518,7 @@
 				{"name":"Tamaño instalado apróx", "type":"200x135cms"}
 			],
 			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
-			"hidden": false,
+			"hidden": true,
 			"images_folder": "sticker_diente_leon",
 			"images": [
 				{"url": "IMG_001.JPG"},
@@ -512,7 +558,7 @@
 			"categories": ["sticker_interruptor", "sticker_gatitos", "sticker_mariposas", "sticker_flores"],
 			"name": "Sticker para interruptores de luz",
 			"state" : "Nuevo",
-			"stock" : 12,
+			"stock" : 11,
 			"values": [
 				{"quantity": 1, "price": 1000},
 				{"quantity": 3, "price": 2000},
@@ -549,7 +595,7 @@
 			"categories": ["sticker_gatitos"],
 			"name": "Sticker Farol con 4 gatitos 70x50cms",
 			"state" : "Nuevo",
-			"stock" : 1,
+			"stock" : 0,
 			"values": [
 				{"quantity": 1, "price": 4500},
 				{"quantity": 3, "price": 12600},
@@ -576,7 +622,7 @@
 			"categories": ["sticker_gatitos"],
 			"name": "Sticker Farol con 4 gatitos 42x32cms",
 			"state" : "Nuevo",
-			"stock" : 10,
+			"stock" : 8,
 			"values": [
 				{"quantity": 1, "price": 2500},
 				{"quantity": 3, "price": 6600},
@@ -602,7 +648,7 @@
 			"categories": ["sticker_gatitos"],
 			"name": "Sticker Farol con 3 gatitos 60x32cms",
 			"state" : "Nuevo",
-			"stock" : 3,
+			"stock" : 0,
 			"values": [
 				{"quantity": 1, "price": 3000},
 				{"quantity": 3, "price": 8400},
@@ -617,7 +663,7 @@
 				{"name":"Tamaño instalado apróx", "type":"130x40cms"}
 			],
 			"instructions" : ["Elija una superficie plana", "Limpie y seque la superficie un jabón suave y agua", "Retire el sticker del papel", "Presione firmemente la superficie para evitar que se forme burbujas"],
-			"hidden": false,
+			"hidden": true,
 			"images_folder": "sticker_farol_gato_3_60x32",
 			"images": [
 				{"url": "IMG_001.JPG"},
@@ -629,7 +675,7 @@
 			"categories": ["sticker_mariposas"],
 			"name": "Sticker con mariposas",
 			"state" : "Nuevo",
-			"stock" : 2,
+			"stock" : 3,
 			"values": [
 				{"quantity": 1, "price": 4500},
 				{"quantity": 3, "price": 12000},
@@ -655,7 +701,7 @@
 			"categories": ["sticker_bano"],
 			"name": "Sticker para el baño",
 			"state" : "Nuevo",
-			"stock" : 3,
+			"stock" : 2,
 			"values": [
 				{"quantity": 1, "price": 2000},
 				{"quantity": 3, "price": 4500},
